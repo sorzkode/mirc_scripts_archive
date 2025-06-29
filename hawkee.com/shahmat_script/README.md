@@ -1,4 +1,4 @@
-# Shah Mat (checkmat) mIRC Script (chess game)
+# Shah Mat (checkmate) mIRC Script (chess game)
 
 ## ⁉️ This is part of an mIRC script archiving project.. Please read the [README](https://github.com/sorzkode/retro_games_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/retro_games_archive) for more information / disclaimers  
 
@@ -12,9 +12,9 @@
 - **Potentially Outdated/Incompatible**: This software was designed for Windows 95/98 and may not work on modern systems
 - **Educational Value**: This archive serves to document the evolution of chess software and early PC gaming
 
-## 🔍 Software Information
+## 🔍 Script Information
 
-**Software Name:** Shah Mat  
+**script Name:** Shah Mat  
 **Version:** 1.0  
 **Category:** Games  
 **Original Author(s):** Caleb Cannon (Breadball) and Lawrence Reece (Entr0py)  
