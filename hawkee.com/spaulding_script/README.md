@@ -29,6 +29,7 @@
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/spaulding_script/spaulding_script.zip)  
 
 ## 📂 Zip File Structure
+<img width="842" alt="zip_structure" src="https://github.com/user-attachments/assets/9ac311b3-fadf-4e74-b70d-fd2a68b1ec39" />
 
 ## Screnshots / Demo
 
