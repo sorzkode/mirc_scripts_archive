@@ -1,5 +1,0 @@
-Quit Browser:/msg = $+ bye | close -c $me | .ruser 665 $me | .disable #wwwirc | unset %wwwirc.*
--
-New page:/www
--
-Help:/wwwhelp

@@ -120,23 +120,6 @@ mirc_scripts_archive/
 - If you are an original author with concerns, please contact me
 - Commercial use of archived scripts is not endorsed
 
-### Content Warnings
-
-Some scripts may contain:
-
-- Outdated security practices
-- Features that may violate modern network policies
-- Content reflecting the attitudes of their era
-- Potentially harmful or disruptive capabilities
-- Immature / innapropriate language
-
-### Responsible Use
-
-- Scripts should only be used in appropriate environments
-- Respect network rules and policies
-- Consider modern security implications
-- Use for educational purposes when possible
-
 ## 📊 Archive Statistics
 
 *Statistics will be updated as the archive grows*
@@ -168,6 +151,7 @@ Some scripts may contain:
 - [Coders-IRC](https://www.coders-irc.net/)
 - [IRC Driven](https://www.ircdriven.com/)
 - [mxbiteck's mIRCScripts.org Archive](https://github.com/mxbiteck/irc-addons-scripts)
+- [WikiChip mIRC Scripting Language](https://en.wikichip.org/wiki/mirc)
 
 ## 📜 License
 
