@@ -27,7 +27,11 @@
 **Scraped From:** [hawkee.com](http://www.hawkee.com:80/scripts/malum.zip)  
 **Code Lines:** 4343  
 **Tags:** multi-tool, away-system, clone-scanner, FServe, protection, scanner, games  
-**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/malum_script/malum_script.zip)
+**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/malum_script/malum_script.zip)  
+
+## 📂 Zip File Structure
+<img width="788" alt="zip_structure" src="https://github.com/user-attachments/assets/2ee0668a-365f-4456-94ad-eddbf5bd5dc4" />
+
 
 ## 📋 Features Overview
 
