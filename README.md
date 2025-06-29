@@ -183,11 +183,11 @@ Some scripts may contain:
 - [Computer History Museum](https://computerhistory.org/)
 
 ### People keeping the IRC dream alive
-[mIRCScripts.info](https://mircscripts.info/)
-[TECHGEAR007](https://www.tg007.net/)
-[Coders-IRC](https://www.coders-irc.net/)
-[IRC Driven](https://www.ircdriven.com/)
-[mxbiteck's mIRCScripts.org Archive](https://github.com/mxbiteck/irc-addons-scripts)
+- [mIRCScripts.info](https://mircscripts.info/)
+- [TECHGEAR007](https://www.tg007.net/)
+- [Coders-IRC](https://www.coders-irc.net/)
+- [IRC Driven](https://www.ircdriven.com/)
+- [mxbiteck's mIRCScripts.org Archive](https://github.com/mxbiteck/irc-addons-scripts)
 
 ## 📞 Contact & Support
 

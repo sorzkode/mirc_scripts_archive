@@ -88,11 +88,13 @@ If you have original Hawkee.com scripts for comparison:
 
 ### People keeping the IRC dream alive
 
-[mIRCScripts.info](https://mircscripts.info/)
-[TECHGEAR007](https://www.tg007.net/)
-[Coders-IRC](https://www.coders-irc.net/)
-[IRC Driven](https://www.ircdriven.com/)
-[mxbiteck's mIRCScripts.org Archive](https://github.com/mxbiteck/irc-addons-scripts)
+### People keeping the IRC dream alive
+
+- [mIRCScripts.info](https://mircscripts.info/)
+- [TECHGEAR007](https://www.tg007.net/)
+- [Coders-IRC](https://www.coders-irc.net/)
+- [IRC Driven](https://www.ircdriven.com/)
+- [mxbiteck's mIRCScripts.org Archive](https://github.com/mxbiteck/irc-addons-scripts)
 
 ## 📞 Archive-Specific Contact
 
