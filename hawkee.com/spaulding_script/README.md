@@ -24,6 +24,7 @@
 **Compatible mIRC Versions:** mIRC 4.x  
 **Network:** DALnet  
 **Support Channel:** Unknown  
+**Scraped From:** [hawkee.com](http://www.hawkee.com:80/scripts/spaulding.zip)..
 **Code Lines:** 887  
 **Tags:** basic, dalnet, channel-protection, flood-protection, aliases, popups, text-effects  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/spaulding_script/spaulding_script.zip)  
