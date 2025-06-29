@@ -27,7 +27,7 @@
 **Scraped From:** [hawkee.com](http://www.hawkee.com:80/scripts/neXus.zip)  
 **Code Lines:**  
 **Tags:** Unknown  
-**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/nexus_script/nexus_script.zip)  
+**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/neXus_script/nexus_script.zip)  
 
 ## 📂 Zip Folder Structure
 
