@@ -23,15 +23,17 @@
 **Release Year:** 1997  
 **Compatible mIRC Versions:** mIRC 4.7+  
 **Network:** Afternet  
-**Support Channel(s):** #Hackers_Den , #acidrat , #scriptworld , #chatzone , #afternet
+**Support Channel(s):** #Hackers_Den , #acidrat , #scriptworld , #chatzone , #afternet  
 **Scraped From:** [Hawkee.com](http://www.hawkee.com:80/scripts/sugarhi.zip)  
 **Code Lines:** 254  
 **Tags:** channel-protection, auto-op, flood-protection, word-kick, channel-management, popups, aliases, away-system  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/sugarhigh_script/sugarhigh_script.zip)  
 
 ## 📂 Zip File Structure
+<img width="800" alt="zip_structure" src="https://github.com/user-attachments/assets/b4d045fb-d0d5-4df4-a0f2-40018685a068" />
 
 ## 🖼️ Screnshots / Demo
+Maybe later
 
 ## 📋 Features Overview
 
