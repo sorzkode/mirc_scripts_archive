@@ -16,7 +16,7 @@
 
 **Script Name:** MaLum  
 **Version:** 7.2  
-**Category:** Full-Featured
+**Category:** Full-Featured  
 **Original Author(s):** PyroMan and KRAkeR  
 **Author Email:** <firestorm@mindspring.com> and <masterj97@aol.com>  
 **Website:** [http://malum.home.ml.org/](http://malum.home.ml.org/)  
