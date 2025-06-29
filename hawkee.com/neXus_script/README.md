@@ -30,6 +30,8 @@
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/nexus_script/nexus_script.zip)  
 
 ## 📂 Zip Folder Structure
+<img width="335" alt="zip_structure" src="https://github.com/user-attachments/assets/ed0b01b0-8d8e-498f-b4e5-14a0bf14b219" />
+
 
 ## 📋 Features Overview
 
