@@ -28,6 +28,7 @@
 **Tags:** file-server, protection, flood-protection, channel-protection, fserve, anti-leech, clone-detection, ratio-system  
  
 ## 📂 Zip File Structure
+<img width="826" alt="zip_structure" src="https://github.com/user-attachments/assets/3206369c-171c-4d77-bb19-7baac566cb93" />
 
 ## Screnshots / Demo
 
