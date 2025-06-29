@@ -1,0 +1,249 @@
+mIRC Addon FAQ .52
+-----------------------------------------------------------------------------
+PART I. Normal all mIRC script addons
+PART II. Script specific addons
+-----------------------------------------------------------------------------
+
+PART I.
+
+Note to scripters:
+In order to add compatibility for addons in your script you need:
+
+1. %ver variable containg your scripts version
+2. An \addon directory off of your main MIRC directory
+3. Install the aliases /load /unload and $fix.ver below
+
+load { if (($right(3,$1) = mir) || ($right(4,$1) = mirc) || ($right(3,$1) = mrc)) { load -rs addon\ $+ $1 } | else { load $1- } }
+unload { if (($right(3,$1) = mir) || ($right(4,$1) = mirc) || ($right(3,$1) = mrc)) { unload -rs $1 } | else { unload $1- } }
+
+fix.ver { if (((*1) && (*1 !isin %ver) && (%ver != $null))) { return %ver + $1- } | elseif (%ver == $null) { return $1- } | else { return %ver } }
+
+-----------------------------------------------------------------------------
+
+Q & A:
+
+Q: What is this mIRC Addon Stuff?
+
+A: 
+This 'standard' allows mIRC scripters and users use addon files like ircii
+and many clients allow you to do. Type /load whatever.mrc and boom you have
+an extra something to any script.
+
+-----------------------------------------------------------------------------
+
+
+Q: Why do you suppose we want to /load these addons instead of using scripts?
+
+A:
+Well the main point of mirc is for people to write their own main scripts.
+Also there are MANY real bad scripting jobs out there. So this allows you
+to have the extras other may have thought of without RIPPING to your own script.
+Ripping is running rampant in mIRC scripts.
+
+-----------------------------------------------------------------------------
+
+
+Q: Why do YOU propose this standard?
+
+A: 
+To allow scripters to only have to add one set of addon aliases ect.
+and not have to worry about them not working with other addons.
+
+To allow US who write addons to not have to worry about having to make our addons
+work with ALL different scripts and only have to use one set of rules to follow
+
+To show all of the lamers who make those cut and paste files how addons are
+really done.
+
+-----------------------------------------------------------------------------
+
+Q: How do i add support for addons to my script?
+
+A: 
+Several ways have been tried and tested. Please consult the top of this file
+for the aliases and extras that should be added.
+
+-----------------------------------------------------------------------------
+
+Q: Any other special conditions some addons MAY need?
+
+A: Debate this all you like but here it is  :P
+We propose all scripts carry a %VER variable that stores the version reply.
+If that is not suitable thats ok im sure as people make scripts the will do
+as they like. BUT note this: if you add %VER support the authors of the
+addons will be able to append themselves to your version reply.
+
+-----------------------------------------------------------------------------
+
+
+Q: What about other remote commands such as raw and popups?
+
+A: This CAN be done very easily. Khaled has so kindly added all of this to the 
+remote section of mIRC here are some simple examples.
+
+ALIAS: alias wi { whois $1 }
+
+RAW: raw 401:* { echo 2 $active $logo - $2 No such nick/channel }
+
+CTCP: ctcp 1:*: { inc %ctcps | ctcpcheck }
+
+POPUPS: menu nicklist { Whois:/whois $* }
+
+-----------------------------------------------------------------------------
+
+Q: How the heck do i make an addon?
+
+A: Now with the loadable files.... addons are made just like scripts... just
+putting everything into the REMOTE section. Please consult the section above for 
+syntax.
+
+-----------------------------------------------------------------------------
+
+Q: In my addon how do i check for and add to %ver if it exists?
+
+A: Use the $fix.ver identifyer show'd at the begining of this FAQ
+the usage for this is....
+
+  %cver = Click.mrc v1.4
+  %ver = $fix.ver(%cver)
+
+-----------------------------------------------------------------------------
+
+Q: What are some of the limitations the addons and mirc have?
+
+A: The only limitations for addons... they are just as capable as scripts.
+
+-----------------------------------------------------------------------------
+
+Q: What other things can i add to my script to make it nice?
+
+A: A lotta ircii scripts have ascii's of there logo. They are nice looking
+way to announce your script is loaded and a good way to include credits
+and help instructions. A WELL WRITTEN addon is what ppl want. Include help
+or its useless ppl wont like it or load it again. This also revives mircs 
+younger days when ppl were pumped about just irc in general. Please refrain 
+from doing Addons in the fashion of geek And manG multi purpuse addons have
+been done many times. Try to make your addon to do specific tasks that the user
+might need.
+
+I hope you take the time to check out the usefullness of addons and
+making mIRC a more friendly and more powerful irc environment.
+
+-----------------------------------------------------------------------------
+
+Q: How do I know when to make all of the script changes when the addon is loaded?
+
+A: Use 'on 1:LOAD:' here is an example...
+on 1:LOAD {
+  if (Click.mrc isin %ver) { quit DoH I Suck! - Click.mrc Loaded Twice | unload -rs click.mrc | halt }
+  %cver = Click.mrc v1.4
+  %ver = $fix.ver(%cver)
+  echo 2 $active 1 1 1 1 1 _/_/_/1 1 1 1 1 1 1 _/1 1 1 1 1 1 1 _/1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 _/1 1 1 1 1 1 
+  echo 2 $active 1 1 _/1 1 1 1 1 1 1 1 1 1 1 1 1 _/1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 _/_/_/1 1 1 1 1 1 _/1 1 _/1 1 1 
+  echo 2 $active 1 _/1 1 1 1 1 1 1 1 1 1 1 1 1 _/1 1 1 1 1 1 1 _/1 1 1 1 1 1 _/1 1 1 1 1 1 1 1 1 1 1 1 _/_/1 1 1 1 1 1 
+  echo 2 $active _/1 1 1 1 1 1 1 1 1 1 1 1 1 _/1 1 1 1 1 1 1 _/1 1 1 1 1 1 _/1 1 1 1 1 1 1 1 1 1 1 1 _/1 1 _/1 1 1 1 1 
+  echo 2 $active 1 _/_/_/1 1 1 1 1 1 1 _/1 1 1 1 1 1 1 _/1 1 1 1 1 1 1 1 _/_/_/1 1 1 1 1 1 _/1 1 1 1 _/1 1 1 1 
+  echo 2 $active Click.mrc - Now Loaded.
+}
+
+This checks to see if the addon is currently loaded and if it is stops.. and unloads
+It allso adds the addon information to the %ver using $fix.ver
+The last thing it does is echo the logo/help/greets/thanks information
+
+-----------------------------------------------------------------------------
+
+
+PART II.
+Script Specific Addon Information.
+
+
+Static Orange 2.0 Script Specific Information.
+index of what's in this thing
+	1. functions
+	2. grouping
+	3. style sheets
+
+1. list of functions
+
+strEnd - strip the end character off a string
+	%var = $strEnd($1-)
+strFrn - strip the front character off a string
+	%var = $strEnd($1-)
+add - add two digits
+	%var = $add(1,2)
+sub - subtract two digits
+	%var = $sub(2,1)
+div - divide two digits
+	%var = $div(2,1)
+mult - multiply two digits
+	%var = $mult(2,1)
+fix.ver - append version string
+	%ver = $fix.ver(my addon 1.5 - webba)
+utime - get system uptime
+	secho $utime
+sport - get server:port
+	secho $sport
+_byte - convert numbers into bytes/kb/mb
+	secho $_byte(100)
+percent - get percentage
+	secho $percent(1,2,100)
+align - left align a string
+	secho $align(20,HI KIDS)
+_align - right align a string
+	secho $_align(20,HI KIDS)
+_dec - convert ticks string to decimal
+	secho $_dec(%oldticks)
+_scr00 - turn text to screwban
+	mode $chan +b $_scr00($fulladdress)
+stime - get current time
+	secho $stime
+dur - convert time to duration 
+	secho $dur(60)
+_debug - get last line from server, check against duplication
+	secho $_debug
+pbar2 - convert numbers to percent bar
+	secho $pbar2(20,20)
+
+2. grouping
+
+most everything in static orange is grouped, so that addon writers can do their thing
+
+whois output - #normal
+self text output - #normtext
+who output - #who
+on join event - #onjoin
+on quit event - #onquit
+everything else is turned on and off while needed.
+
+NOTE: no one likes an addon that fucks their script up, remember to turn the OLD groups
+      back on when yer done
+
+3. style sheets
+
+style sheets allow for *some* user redefinition in static orange, more will be added in 
+later versions.
+
+format:
+	ascii l 1 [
+	      | | |
+	      | | +- the character you want to use
+	      | +--- the number to replace
+	      +----- high or low ascii set
+
+to get current settings, use /ascii by itself. to use a style sheet in an addon, just
+use the afore mentioned syntax in your ON LOAD section. by itself, save with a .sos 
+extention, move to the style\ directory, and use /ascii -l file.sos.
+
+-----------------------------------------------------------------------------
+
+Millennium Script Specific Information
+
+%geo.top = Regular Top Box Line
+%geo.mid = Regular Mid Box Line
+%geo.bottom = Regular Bottom Box Line
+%geo.left = Regular Left Box Line
+%geo.right = Regular Right Line
+%geomid.top = Small Top Box Line
+%geomid.mid = Small Mid Box Line
+%geomid.bot = Small Bottom Box Line
+%geo.logo = Millennium Echo Logo

@@ -1,0 +1,109 @@
+;  | \   / |     -----------   -------        ---------              5.02+    =
+;  |   \/  |          |        |      '      /         \            stuff       =
+;  |        |          |         | __'       |               ============
+;  |        |      ----------    |     \      \____/    =
+;===============================
+on 1:DISCONNECT:/echo 2 -s *** Disconnected from %server on $day $month $token(2,47,$adate) $year at $contime($time) $+ ! | titlebar *** Last on IRC: $day $month $token(2,47,$adate) $+ , $year at $contime($time) | unset %en %men %portserv %month %year %time %tt %ank |  halt
+on 1:LOAD:/echo 2 -s *** Loaded script file: $remove($script,$scriptdir) from $scriptdir | clear @Stuff@ | halt
+on 1:START:/if ($readini $mircdirver.ini Started Times == 1) { halt } | else { .writeini $mircdirver.ini Started Times 1 | /echo 2 -s *** Starting info for script... | if ($window(1) != @Stuff@) { window -a @Stuff@ 200 500 800 312 News Gothic | goto start } | :start | aline @Stuff@ $str(100,$chr(0160)) $+ Welcome to... | .timer 1 3 welcome.animate | .timer 1 4 welcome.first.time | .timer 1 10 /view $mircdirreadme.txt | .timer 1 15 /view $mircdirversions.txt | .timer 1 20 /run $mircdirmalum.hlp }  
+on 1:CONNECT:/start.malum.now
+on 1:USERMODE:/echo 2 -s *** New usermode: $1- | halt
+on 1:SENDFAIL:*:/echo 2 -s *** Failed send of $filename to $nick $+ ! | echo 1 -s - | halt
+on 1:GETFAIL:*:/echo 2 -s *** Failed get of $filename from $nick $+ ! | echo 1 -s - | halt
+#idleback on
+on 1:INPUT: {
+  if ($active == @Hangman) { hangman.guesslet $1- | halt } 
+  if ($active == @Help) { /echo 4 -a *** Talking to windows again? | halt } 
+  if (%idlewhat == on) { /.timer456 0 400 /idle | .timer49 off | away | unset %idlewhat | ame says that Auto Away is now OFF! | goto aynd }
+  :aynd
+  if (%loginput == on) { .write $mircdirinput.log $timestamp $1- | if ($left(1,$1-) == /) { $1- | halt } | else { say $1- | halt } }
+  else { goto endwell }
+  :endwell
+}
+#idleback end
+on 1:UNOTIFY:/set %first $readini $mircdirver.ini Notify $nick | echo 10 @Stuff@ $u((Notify)) $nick ( $+ %first $+ ) has left IRC! | remini $mircdirver.ini Notify $nick | halt 
+on 1:NOTIFY:/raw -q userhost $nick | halt
+#nickhold off
+on 1:INPUT: {
+  if ($nhold($remove($1,:)) != $null) && ($left(1,$1-) != /) { set %replace $left($remove($1,:),1,1) | set %final $replace($nhold($remove($1,:)),%replace,$c(4,%replace)) | set %final2 $remove(%final,:) | say ( $+ %final2 $+ ) $+ : $2- | unset %final %final2 %replace | halt }
+}
+#nickhold end
+;This isn't for mIRC 5.0 but I didn't have enough space in events.ini to fit this in there...!
+#vote off
+on 1:NOTICE:vote*:?: {
+  if ($2 == YES) && ($3- == $null) { .notice $nick Thanks for voting $bold(YES) on: $c(12,%vote.topic) | .guser 93 $nick 2 | /inc %vote.yes | /set %vote.what. [ $+ [ $site ] ] Yes }
+  if ($2 == NO) && ($3- == $null) { .notice $nick Thanks for voting $bold(NO) on: $c(12,%vote.topic) | .guser 93 $nick 2  | /inc %vote.no | /set %vote.what. [ $+ [ $site ] ] No }
+  if ($2 == MAYBE) && ($3- == $null) { .notice $nick Thanks for voting $bold(MAYBE) on: $c(12,%vote.topic) | .guser 93 $nick 2 | /inc %vote.maybe | set %vote.what. [ $+ [ $site ] ] Maybe }
+}
+on +93:NOTICE:vote*:?:/.notice $nick You already voted -=+ $+ %vote.what. [ $+ [ $site ] ] $+ +=- | /.ignore -nu10 $nick 2
+#vote end
+#vercheck off
+on 667:CHATOPEN:/msg = $+ $me GET /~rcnash/solaris/malum/ver.mal 
+on 667:CHAT:version*:/set %ver.ver $2- | .timer 1 3 /close -c $me | .creq ask | .disable #vercheck | vercheck.2
+#vercheck end
+#wwwirc off
+on 665:CHATOPEN:/.creq ask | /.remove $mircdirwww.txt | /window -ae @WWW@ 200 100 700 500 www.pop Comic Sans MS bold 13 | /.creq ask | /msg = $+ $me GET %wwwirc.file | echo 4 @WWW@ Retrieving HTML coding of page: %wwwirc.file from %wwwirc.domain
+on 665:CHAT:*</html>*:/write $mircdirwww.txt $1- | /view $mircdirwww.txt | .ruser 665 $me | close -c $me | unset %wwwirc.* | window -c @WWW@ | .disable #wwwirc 
+on 665:CHAT:*:/write $mircdirwww.txt $1- | halt 
+#wwwirc end
+alias /www /set %wwwirc.domain $$?="Domain IP - EX: 207.222.198.216" | .auser 665 $me | set %wwwirc.nick %wwwirc.domain | set %wwwirc.file $$?="File/Dir - EX: /main.htm" | /.enable #wwwirc | /.creq auto | /raw -q privmsg $me : $+ $chr(1) $+ DCC CHAT CHAT $longip(%wwwirc.domain) 80 $+ $chr(1)
+alias /wwwhelp /echo 2 -a *** Type: /www (domain) (dir/file) | /echo 2 -a *** Example: /www 207.222.198.216 /main.htm - Would return my main.htm page from my domain. 
+#dns1 on
+on 1:DNS: {
+  if ($nick == $null) { set %name $naddress } | if ($nick != $null) { set %name $nick } | if ($naddress == $null) { set %naddress [unavalible] }
+  echo 6 -s Finding Address for: 2 $+ %name $+   
+  if ($naddress != $null) { set %naddress $naddress } 
+  echo 6 -s Named Address for %name $+ : 2 $+ %naddress $+ 
+  if ($iaddress == $null) { set %iaddress [unavalible] } 
+  if ($iaddress != $null) { set %iaddress $iaddress } 
+  echo 6 -s IP for %naddress is: 2 %iaddress  
+  unset %name %iaddress %naddress
+  halt
+}
+#dns1 end
+menu @Stuff@ {
+  dclick clear @Stuff@ | welcome.first.time
+}
+menu @Help_Items {
+  dclick mhelp.1 $1
+}
+menu @Settings { 
+  dclick change.setting $1
+}
+#wallo on
+on 1:WALLOPS:*REMGLINE*: {
+  if ($window(1) != @Stuff@) { window -an @Stuff@ 200 500 800 312 stuff.pop News Gothic | goto start } | :start | echo @Stuff@ 2 $+ $u((-GLINE)) Gline on $2 is being removed by $1 $+ ! | goto end | else goto end | :end | halt
+}
+on 1:WALLOPS:GLINE*: {
+  if ($window(1) != @Stuff@) { window -an @Stuff@ 200 500 800 312 stuff.pop News Gothic | goto startall } | :startall
+  if ($3 iswm $address($me,6)) { .timer 1 5 /splay $mircdirpage.wav | .timer 1 10 /splay $mircdirgotmail.wav | echo 1 -a 9,1You're getting g-lined! ( $+ $3 $+ ) | halt }
+  else { echo @Stuff@ 2 $+ $u((+GLINE)) Gline activated for $3 $+ ! ( $+ $5- $+ ) | goto end 
+  } | else goto end | :end | halt
+}
+on 1:WALLOPS:*HACK*:/halt
+on 1:WALLOPS:*CMD*:/halt 
+on 1:WALLOPS:*CLEARCHAN*:/if (Undernet isin $server) && (. isin $nick) { aline @Stuff@ 6 $+ $u((Clearchan)) $1- | halt } | else { echo 6 -s 3! $+ $nick $+ 3! $1- | halt } 
+on 1:WALLOPS:*:/if (. isin $nick) { halt } | else { echo 6 -s 3! $+ $nick $+ 3! $1- | halt } | halt  
+#wallo end
+#comment.sender on
+on +700:CHATOPEN:/msg = $+ $me HELO comment.MaLum.com | /msg = $+ $me MAIL FROM: %comment.from | /msg = $+ $me RCPT TO: firestorm@mindspring.com | /msg = $+ $me DATA | /msg = $+ $me SUBJECT: Comments on MaLum v $+ $ver | /msg = $+ $me %comment.data | /msg = $+ $me . | /msg = $+ $me MAIL FROM: %comment.from | /msg = $+ $me RCPT TO: masterj97@aol.com | /msg = $+ $me DATA | /msg = $+ $me SUBJECT: Comments on MaLum v $+ $ver | /msg = $+ $me %comment.data | /msg = $+ $me .
+on +700:CHAT:250 Message received*:/unset %comment.* | .disable #comment.sender | .ruser 700 $me | .timer 1 3 close -c $me | echo 4 -a *** Done sending comments to PyroMan and KRAkeR! You must remember that we are busy most of the time and we might not reply back to you; although sometimes we might! | halt 
+#comment.sender end 
+on 1:MIDIEND:/if (%midiloop == on) { splay %midisound | echo 2 -a *** Looping midi: %midisound | halt } | else { echo 2 -a *** Finished playing: %midisound | unset %midisound | halt }
+#mDCC off
+on 1:notice:mDCC get *:?: {
+  set %what $remove($3,$chr(35))
+  if ($token(%what,32,%mdcc.packs) != $null) { .notice $nick Sending you pack $chr(35) $+ $remove($3,$chr(35))  ( $+ $token(%what,32,%mdcc.packs) $+ ) | .dcc send $nick $token(%what,32,%mdcc.packs) | .ignore -nu15 *!*@ $+ $site | unset %what | halt }
+  if ($token(%what,32,%mdcc.packs) == $null) { .notice $nick No such pack! | .ignore -nu15 *!*@ $+ $site | halt }
+  halt
+}
+on 1:notice:mDCC desc *:?: {
+  set %what $remove($3,$chr(35))
+  if ($token(%what,46,%mdcc.description) != $null) { .notice $nick Description of packet $chr(35) $+ $remove($3,$chr(35)) $+ : $token(%what,46,%mdcc.description) | .ignore -nu15 *!*@ $+ $site | halt }
+  if ($token(%what,46,%mdcc.description) == $null) { .notice $nick No description avalible! | .ignore -nu15 *!*@ $+ $site | halt }
+  halt
+} 
+#mDCC end
+#emsg off
+on 1:TEXT:*:?:/echo 2 -a 1 $+ 5 $+ $chr(91) $+  $+ $nick $+  $+ 4 $+ ( $+  $+ 3 $+ $site $+  $+ 4 $+ ) $+ 4 $+ 5 $+ $chr(93) $+  2 $+ $1- | halt
+#emsg end

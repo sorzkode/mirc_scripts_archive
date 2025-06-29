@@ -1,0 +1,319 @@
+-=+=-NickList-=+=-:/halt
+-
+Whois:/whois $$1
+DNS:/dns $$1
+Dcc Chat:/dcc chat $$1
+CTCPS
+.Ping:/ctcp $$1 ping
+.Version:/ctcp $$1 version
+.Finger:/ctcp $$1 finger
+.Userinfo:/ctcp $$1 userinfo
+.Time:/ctcp $$1 time 
+.Clientinfo:/ctcp $$1 clientinfo
+Misc stuff
+.Search Clones on user 
+..ECHO:/glclone -e $$1
+..CHANNEL:/glclone -c $$1
+.Definitions
+..Lamer:/msg # Lamer: Noun (LAYm-uhr) | /msg # 1. Idiot,Dumb,Moron | /msg # Example of a lamer: $$1
+..Gay:/msg # Gay: Noun (G-aye) | /msg # 1. Have sex with the same gender | /msg # 2. To be happy | /msg # Example of a gay person: $$1
+..Wuss:/msg # Wuss: Noun (W-uh-ss) | /msg # 1. Weak,Frightend | /msg # Example of a wuss: $$1 
+..Jackass:/msg # Jackass: Noun (J-ahck-a-ss) | /msg # 1. Donkey | /msg # 2. To be annoying | /msg # Example of a jackass: $$1
+..Pussy:/msg # Pussy: Noun (Puh-see) | /msg # 1. Slang term for the female sex orgen (See also: Vagina) | /msg # 2. To act cool but really is a lamer | /msg # Example of a pussy: $$1
+..Bitch:/msg # Bitch: Pro-Noun (Be-itch) | /msg # 1. Female dog | /msg # 2. A female that is being a jackass | /msg  # Example of a bitch: $$1
+..Fucker:/msg # Fucker: Noun (F-uh-ck-ur) | /msg # 1. Slang term for sexual intercourse | /msg # 2. An annoying idiot | /msg # Example of a fucker: $$1
+..Whore:/msg # Whore: Noun (H-oo-er) | /msg # 1. Slang for a hooker | /msg # Example of a Whore: $$1 $+ 's mom
+..Nerd:/msg # Nerd: Noun (N-er-d) | /msg # 1. A person that knows too much for their own damn good | /msg # 2. Someone who is about to get their ass kicked | /msg # Example of a nerd: $$1
+-
+User stuff
+.Add user
+..d:/guser dprotect $1 3 | .notice $1 You are now being deop protected by $me and MaLum!
+..b:/writeini $mircdirver.ini Bprotect $address($1,$$?="Address type 1-10") on | .notice $1 You are now being ban protected by $me and MaLum!
+..k:/guser kprotect $1 3 | .notice $1 You are now being kick protected by $me and MaLum!
+..v:/guser voice $1 3 | .notice $1 You are now being autovoiced/devoice protected by $me and MaLum!
+..k,d,v:/guser kprotect,dprotect,voice $1 3 | .notice $1 You are now being autovoiced/devoice,kick, and ban protected by $me and MaLum!
+..all:/writeini $mircdirver.ini Bprotect $address($1,$$?="Address type for bprotect 1-10") on | /guser autoop,voice,kprotect,dprotect $1 3 | .notice $1 You are now being FULLY protected by $me and MaLum!
+.Remove user:/ruser $1 3 | /remini $mircdirver.ini Bprotect $address($1,3)
+.Shitlist
+..Add Shitlist:/shitlist $1 $$?="* for globally or a channel name!:" $?="Reason or just click ok!"
+..Remove Shitlist:/rshitlist $1 $$?="* for globally or a channel name!:"
+.Aop list
+..Add to Aop list:/aop $1 $$?="* for globally or a channel name!:" 
+..Remove from aop list:/raop $1 $$?="* for globally or a channel name!:"
+-
+Control
+.Kicks
+..G0AT:/describe # likes goats! | /describe # likes to shave his! | /describe # takes out his shaver and skins $$1 | /describe # looks around oddly | /if ($me !isop #) { /describe # says hey $$1 you better be lucky I'm fealing weak! } | else { /kick # $$1 I wonder if the garbage men take up shaved goats... }
+..No Talk:/describe # doesn't feal like talking about $$1 right now... | /kick # $$1 I don't feal like talking about you but I feal like kicking you!
+..Virus:/msg # Hey $$1 $+ , Ever had a virus? | /kick # $$1 Well if you come back in I'll send you one!
+..GaRbAGE:/msg # Hey $$1 $+ , You like Garbage? | /msg # I do. I like to kick it around! | /kick # $$1 Womp! You look exactly like trash!
+..Jetliner:/describe # hears a loud wirrrrr | /describe # looks up and notices a jetliner crashing overhead! | /describe # looks around and finds something to protect himself with... | /kick # $$1 Damn! Those G's sure do knock ya away...
+..BomB:/describe # takes out a 1/2 stick of dynamite | /describe # takes some clamps | /describe # shoves the dynamite down $$1 $+ 's mouth | /describe # clamps $$1 $+ 's mouth shut | /describe # sets $$1 on fire | /kick # $$1 BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMM!
+..Jibberish:/describe # oogle splatnum hoople $$1 $+ ! | /describe # jahyple ookle soogle $$1 $+ $$1 | /describe # pookle loofle doodle! | /kick # $$1 Translation: You suck.
+..UFO:/describe # yells to $$1 $+ , You know what a UFO is? | /kick # $$1 UFO = Unidentified Fuck Off
+..Guanohole:/describe # tells $$1 that he's standing in some guano! | /describe # offers to help $$1 | /describe # takes a shovel and digs a hole and fills it up with MORE guano! | /describe # throws $$1 in it! | /kick # $$1 Now you're in deep shit!
+..ABC:/describe # sings his ABC's | /describe # hears $$1 singing along... | /kick # $$1 Damnit. This is a solo not a duet.
+..Loser!!:/describe # thinks $$1 is a Loser!! | /describe # wonders what $$1 thinks... | /kick # $$1 ahh I dont care what you think, You are a loser!!!
+.Op:/raw -q mode # +o $1
+.Op all selected users: {
+  %i = 0
+  %nicks = ""
+  :nextnick
+  inc %i
+  if ($snick(%i,#) == $null) { if ($len(%nicks) > 0) raw -q mode # +oooo %nicks | halt }
+  %nicks = %nicks $snick(%i,#)
+  if (4 // %i) { raw -q mode # +oooo %nicks | %nicks = "" }
+  goto nextnick
+}
+.Deop:/raw -q mode # -o $1
+.Deop all selected users: {
+  %i = 0
+  %nicks = ""
+  :nextnick
+  inc %i
+  if ($snick(%i,#) == $null) { if ($len(%nicks) > 0) raw -q mode # +oooo %nicks | halt }
+  %nicks = %nicks $snick(%i,#)
+  if (4 // %i) { raw -q mode # -oooo %nicks | %nicks = "" }
+  goto nextnick
+}
+.Voice:/raw -q mode # +v $1
+.Voice all selected users:
+..1: {
+  %i = 0
+  %nicks = ""
+  :nextnick
+  inc %i
+  if ($snick(%i,#) == $null) { if ($len(%nicks) > 0) raw -q mode # +vvvv %nicks | halt }
+  %nicks = %nicks $snick(%i,#)
+  if (4 // %i) { raw -q mode # -vvvv %nicks | %nicks = "" }
+  goto nextnick
+}
+..2:/mv -v 
+.Devoice:/raw -q mode # -v $1
+.Devoice all selected users: {
+  %i = 0
+  %nicks = ""
+  :nextnick
+  inc %i
+  if ($snick(%i,#) == $null) { if ($len(%nicks) > 0) raw -q mode # +vvvv %nicks | halt }
+  %nicks = %nicks $snick(%i,#)
+  if (4 // %i) { raw -q mode # -vvvv %nicks | %nicks = "" }
+  goto nextnick
+}
+.Screwban:/screwban $1 
+.Kick/reason:/kick # $1 5[MaLum] $$?="Enter kik message!" 5[MaLum]
+.Kick:/kick # $1 MaLum v $+ $ver by PyroMan & KRAkeR FastKik! 
+.Ban/reason:/ban # $1 $$?="Enter type of ban:"
+.Ban:/ban # $1 3
+.Kick/Ban/reason:/ban # $1 $$?="Enter type of ban:" | /kick # $1 5[MaLum] $$?="Enter kik message!" 5[MaLum]
+.Kick/Ban:/ban # $1 3 | /kick # $1 MaLum v $+ $ver by PyroMan & KRAkeR FastKikBan!
+.Kick/Ban/Banip:/ban # $1 3 | /kick # $1 MaLum v $+ $ver by PyroMan & KRAkeR FastKikBan & BanIP! | /banip $1
+.Kick/Banip:/banip $1 | /kick # $1 MaLum v $+ $ver by PyroMan & KRAkeR FastKikBanIP!
+MASS
+.Mass Kill: {
+  %mkillmessage = $$?="Enter Kill Mesage:"
+  %mkillnum = 1
+  :start
+  if ($snick(%mkillnum,#) == $me) goto next
+  kill $snick(%mkillnum,#) %mkillmessage
+  goto next
+  :next
+  inc %mkillnum
+  if ($snick(%mkillnum,#) == $null) unset %mkill* | halt
+  elseif $snick(%mkillnum,#) != $null) goto start
+}
+.Mass Deop: {
+  %i = 0
+  %nicks = ""
+  :nextnick
+  inc %i
+  if ($snick(%i,#) == $me) inc %i
+  if ($snick(%i,#) == $null) { if ($len(%nicks) > 0) raw -q mode # -oooooo %nicks | halt }
+  %nicks = %nicks $snick(%i,#)
+  if (6 // %i) { raw -q mode # -oooooo %nicks | %nicks = "" }
+  goto nextnick
+}
+.Mass Op: {
+  %i = 0
+  %nicks = ""
+  :nextnick
+  inc %i
+  if ($snick(%i,#) == $null) { if ($len(%nicks) > 0) raw -q mode # +oooooo %nicks | halt }
+  %nicks = %nicks $snick(%i,#)
+  if (6 // %i) { raw -q mode # +oooooo %nicks | %nicks = "" }
+  goto nextnick
+}
+.Mass voice: {
+  %i = 0
+  %nicks = ""
+  :nextnick
+  inc %i
+  if ($snick(%i,#) == $null) { if ($len(%nicks) > 0) raw -q mode # +vvvvvv %nicks | halt }
+  %nicks = %nicks $snick(%i,#)
+  if (6 // %i) { raw -q mode # +vvvvvv %nicks | %nicks = "" }
+  goto nextnick
+}
+.Mass Invite: {
+  %minchan = $$?="Enter channel to invite to:"
+  %minnum = 1
+  :start
+  invite $snick(%minnum,#) %minchan
+  inc %minnum
+  if ($snick(%minnum,#) == $null) halt
+  elseif ($snick(%minnum,#) != $null) goto start
+}
+.Mass Notice: {
+  %mnotice = $$?="Enter notice:"
+  %mnonum = 1
+  :start
+  notice $snick(%mnonum,#) %mnotice 
+  inc %mnonum
+  if ($snick(%mnonum,#) == $null) halt
+  elseif ($snick(%mnonum,#) != $null) goto start
+}
+.Mass Msg: {
+  %mmessage = $$?="Enter message:"
+  %mmsnum = 1
+  :start
+  msg $snick(%mmsnum,#) %mmessage 
+  inc %mmsnum
+  if ($snick(%mmsnum,#) == $null) halt
+  elseif ($snick(%mmsnum,#) != $null) goto start
+}
+.Mass Kick: {
+  %mkmsg = $$?="Enter kick message:"
+  %mkinum = 1
+  %victim = 0
+  :start
+  inc %victim
+  if ($snick(%mkinum,#) == $me) goto next
+  kick # $snick(%mkinum,#) %mkmsg (Victim number %victim (MaLum)) 
+  goto next
+  :next
+  inc %mkinum
+  if ($snick(%mkinum,#) == $null) halt
+  elseif ($snick(%mkinum,#) != $null) goto start
+}
+.Mass Un-voice: {
+  %i = 0
+  %nicks = ""
+  :nextnick
+  inc %i
+  if ($snick(%i,#) == $me) inc %i
+  if ($snick(%i,#) == $null) { if ($len(%nicks) > 0) raw -q mode # -vvvvvv %nicks | halt }
+  %nicks = %nicks $snick(%i,#)
+  if (6 // %i) { raw -q mode # -vvvvvv %nicks | %nicks = "" }
+  goto nextnick
+}
+.Mass Ban: {
+  %mbannum = 1
+  who #
+  :start
+  if ($snick(%mbannum,#) == $me) goto next
+  raw mode # +b $address($snick(%mbannum,#),4)
+  goto next
+  :next
+  inc %mbannum
+  if ($snick(%mbannum,#) == $null) halt
+  elseif ($snick(%mbannum,#) != $null) goto start
+}
+.Mass KickBan: {
+  %mkbmessage = $$?="Enter Mass KickBan Message:"
+  %mkbvictim = 0
+  %mkbnum = 1
+  who #
+  :start
+  if ($snick(%mkbnum,#) == $me) goto next
+  inc %mkbvictim
+  raw mode # +b $address($snick(%mkbnum,#),4)
+  kick # $snick(%mkbnum,#) %mkbmessage (Victim number %mkbvictim (MaLum))
+  goto next
+  :next
+  inc %mkbnum
+  if ($snick(%mkbnum,#) == $null) halt
+  elseif ($snick(%mkbnum,#) != $null) goto start
+}
+.Mass Warning:
+..First Warning: {
+  %fwmessage = $$?="Enter First Warning Message:"
+  %fwvictim = 0
+  %fwnum = 1
+  who #
+  :start
+  if ($snick(%fwnum,#) == $me) goto next
+  inc %fwvictim
+  kick # $snick(%fwnum,#) %fwmessage (Warning #1 (Victim number %fwvictim (MaLum)))
+  goto next
+  :next
+  inc %fwnum
+  if ($snick(%fwnum,#) == $null) halt
+  elseif ($snick(%fwnum,#) != $null) goto start
+}
+..Second Warning: {
+  %swmessage = $$?="Enter Second Warning Message:"
+  %swvictim = 0
+  %swnum = 1
+  who #
+  :start
+  if ($snick(%swnum,#) == $me) goto next
+  inc %swvictim
+  mode # +b $address($snick(%swnum,#),4)
+  %bantime = $address($snick(%swnum,#),4)
+  raw kick # $snick(%swnum,#) : $+ %swmessage (Warning #2 (Ban duration: 30 seconds (Victim number %swvictim (MaLum)))
+  timer 1 30 mode # -b %bantime
+  goto next
+  :next
+  inc %swnum
+  if ($snick(%swnum,#) == $null) halt
+  elseif ($snick(%swnum,#) != $null) goto start
+}
+..Third Warning: {
+  %twmessage = $$?="Enter Third Warning Message:"
+  %twvictim = 0
+  %twnum = 1
+  who #
+  :start
+  if ($snick(%twnum,#) == $me) goto next
+  inc %twvictim
+  mode # +b $address($snick(%twnum,#),4)
+  %tbantime = $address($snick(%twnum,#),4)
+  raw kick # $snick(%twnum,#) : $+ %twmessage (Warning #3 (Ban duration: Permanent (Victim number %twvictim (MaLum)))
+  goto next
+  :next
+  inc %twnum
+  if ($snick(%twnum,#) == $null) halt
+  elseif ($snick(%twnum,#) != $null) goto start
+}
+.Mass Dcc:
+..Chat: {
+  %mdccnum = 1
+  :start
+  if ($snick(%mdccnum,#) == $me) goto next
+  dcc chat $snick(%mdccnum,#) 
+  goto next
+  :next
+  inc %mdccnum
+  if ($snick(%mdccnum,#) == $null) halt
+  elseif ($snick(%mdccnum,#) != $null) goto start
+}
+..Send {
+  %msccfile = $$?="Enter File:"
+  %msccnum = 1
+  :start
+  if ($snick(%msccnum,#) == $me) goto next
+  dcc send $snick(%msccnum,#) %msccfile 
+  goto next
+  :next
+  inc %msccnum
+  if ($snick(%msccnum,#) == $null) halt
+  elseif ($snick(%msccnum,#) != $null) goto start
+}
+.Mass CTCP: {
+  %mctcptype = $$?="Enter CTCP Type:"
+  %mctcpnum = 1
+  :start
+  ctcp $snick(%mctcpnum,#) %mctcptype
+  inc %mctcpnum
+  if ($snick(%mctcpnum,#) == $null) halt
+  elseif ($snick(%mctcpnum,#) != $null) goto start
+}

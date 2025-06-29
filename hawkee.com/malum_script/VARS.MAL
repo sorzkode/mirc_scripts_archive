@@ -1,0 +1,72 @@
+---------------------------------------------------------------------------------------------------------------------------
+|----------------         !#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!!!#!#!#!#!#!#    ---------------- |
+|----------------         !#!  MaLum v7.2 by PyroMan and KRAkeR! !!#!    ---------------- |  
+|----------------         !#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!##!#!#!#!#!!!    ---------------- |
+---------------------------------------------------------------------------------------------------------------------------
+=+=+=+ DO NOT MESS WITH THE FOLLOWING VARIABLES OR YOU ARE SCREWED! =+=+=+=
+%midiloop off
+%filt off
+%filter fuck shit pussy cunt cock ass
+%ver MaLum 7.2 by PyroMan and KRAkeR    
+%mban off
+%c2 12
+%c 7
+%c3 14
+%serop off
+%serdeop off
+%swear off
+%ckick off
+%cccaps off
+%award 90000
+%senddir c:\mirc
+%erasecred off
+%maxgets 999
+%fserve !MaLum
+%pingkick off
+%mnum 10000
+%revenge off
+%aircops off
+%cnum 3
+%uial off
+%rpet off
+%mkick off
+%cljoin off
+%autoget ON
+%port 6663
+%netbreaks 64
+%netjoins 72
+%mdop off
+%loginput off
+=+=+=+=+ You can erase these bollow anytime if it gets cluttered!!!!!! =+=+=+=+=
+%server NewBrunswick.NJ.US.Undernet.Org
+%io.st 5
+%io.tt 4
+%rainbow.msg IRCop
+%length 7
+%cycles 8
+%rainbow.str 4
+%rainbow1 3I7R1C6o1p4
+%rainbow2 3I7R1C6o1p4
+%len 6
+%option msg #bots
+%text cLoNe DeTeCtOr
+%people +
+%first no@200-63-56.ipt.aol.com
+%inchan #WebChat
+%totalbans 0
+%ircops.1 0
+%cloners.1 0
+%cloners.3 0
+%cloners.4 0
+%list 0
+%chitim 5
+%cloners.2 0
+%ircops.2 0
+%ircops.3 0
+%ircops.4 0
+%i 8
+%rainbow 83I7R1C6o1p4
+%ank 0
+%tt 3617
+%channels #MaLum #botz #bots #mIRCScriptZ
+%time 1:05:07 AM

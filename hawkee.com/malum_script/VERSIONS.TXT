@@ -1,0 +1,48 @@
+MaLum 7.2 updates |
+-------------------
+
+Total updates: [15]
+
+1. Fixed $size identifier not working in mDCC (?)
+2. In chanstats where it says "IRCops: none" it doesn't show none
+   now it just shows a regular percent like all the others and it 
+   also won't show the ircop nicks either!
+3. Fixed ON DNS
+4. /search doesn't use $rainbow now
+5. Added color to finger.txt! (/finger <your nick>)
+6. Changed some of the colors around
+7. If you try changing your nick to something that someone's already using it
+   will show something like "PyroMan is already in use by ~nutcase@wallycom.com"
+   (That's just an example)
+8. You can now choose wether to autoop someone on * or just 1 channel.
+   (Still in testing stages so it may not work sometimes)
+9. Finally fixed /email,/emailbomber, and the comment sender!!!!
+10. When you start up for the first time it brings up readme.txt,versions.txt
+    and the malum.hlp file! (Why so many files you ask? I decided to 
+    put them to use since nobody was using 'em!)
+11. When you set away you can now choose wether or not to have the pager
+    ON or OFF. (Plus the away msg looks a lil better tew)
+12. Added an "input logger" which logs everything you type in ...
+    You can turn it off or on in the settings or new.setting
+13. When using mDCC a user can now retrieve the description of a certain
+    packet number by /notice <your nick> desc #<packet number>. This
+    will add that user's $site to ignore for 15 seconds to make sure
+    that user doesn't flood you off. 
+14. Added a "typer" which types the text you specify to yourself ...
+    Well sorta like a type writer.
+15. Fixed bug in fserve that was allowing people infinite credits 
+    (I had forgotten a halt in a certain spot)
+16. Added $newdate(character) identifier
+
+                Feel free to contact us on Undernet #botz,
+                #bots, and #MaLum between Monday - Saturday
+                . Monday - Thursday at 3:00pm EST to the 
+                next day around 11:15pm EST. And on Friday
+                and Saturday around 2:00pm EST till about
+                6:00am saturday morning and on Saturday
+                from 2:15pm till Sunday at 6:00am. 
+                
+
+NOTE: Those days are were you will find PyroMan. Although KRAkeR does work on
+      about the same schedule as I do since he lives about 2 miles away!
+    

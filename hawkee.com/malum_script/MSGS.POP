@@ -1,0 +1,3 @@
+Clear:/cls
+Close:/window -c @MSGS@
+Disable Cool msgs:/.disable #coolmsgs | /window -c @MSGS@

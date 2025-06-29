@@ -1,0 +1,139 @@
+/controls /set %controls 0 | /inc %controls $count($1-,$chr(3)) | /inc %controls $count($1-,$chr(2)) | /inc %controls $count($1-,$chr(31)) | /inc %controls $count($1-,$chr(22)) | return %controls
+/rainbow { unset %rainbow | set %rainbow.msg *1 | set %length $len(%rainbow.msg) | set %cycles 1 | :next | if ($mid(%cycles,1,%rainbow.msg) == $null) { goto done } | if ($mid(%cycles,1,%rainbow.msg) == $chr(32)) { set %rainbow.str  $+ $r(1,15) $+ $chr(160) $+  } | else { set %rainbow.str  $+ $r(1,15) $+ $mid(%cycles,1,%rainbow.msg) $+  }
+  set %rainbow %rainbow %rainbow.str | inc %cycles 1 | goto next | :done | %rainbow = $remove(%rainbow,$chr(32)) | %rainbow1 = $remove(%rainbow,8) | %rainbow2 = $remove(%rainbow1,9) | return %rainbow2
+}
+/colortest { %i = 0 | %ii = 0 | :start | inc %i 1 | if (%i > 12) { %i = 1 | inc %ii 1 } | if (%i == %ii) { inc %i | goto start } | if (%ii > 12) { goto end } | echo $chr(3) $+ %i $+ , $+ %ii $+ Color test ( $+ %i $+ , $+ %ii $+ ) | goto start | :end | unset %ii %i }
+/rev { set %start *1 | set %final | set %endreverse | set %sections $token(0,32,*1) | :revstart | if (%sections == 0) goto revend  | set %reverseme $token(%sections,32,*1)
+  set %length $len(%reverseme) | set %backtext $mid(%length,1,%reverseme) | dec %length 1 | :backstart | if (%length == 0) goto backend | set %tempback $mid(%length,1,%reverseme) | set %backtext %backtext $+ %tempback | dec %length 1 | goto backstart
+  :backend | set %reversed_text %backtext | set %temp %reversed_text | set %final %final %temp | dec %sections 1
+  goto revstart | :revend | set %endreverse %final | unrev | return %final
+}
+/unrev { unset %endreverse | unset %start | unset %sections | unset %reverse* | unset %length | unset %backtext | unset %temp* } 
+/dp /say ¬ $+ $chr(91) $+ $1 $+ $chr(93) $+ ¬ $2-
+/nospace /return 0,0 $+ $1- $+ 
+/menc {
+  set %en $1-
+  set %en $replace(%en,?,½)
+  set %en $replace(%en,a,$nospace()) | set %en $replace(%en,b,3€) | set %en $replace(%en,c,) | set %en $replace(%en,d,‚) | set %en $replace(%en,e,ƒ) | set %en $replace(%en,f,„)
+  set %en $replace(%en,g,…) | set %en $replace(%en,h,†) | set %en $replace(%en,i,$u(‡)) | set %en $replace(%en,j,ˆ) | set %en $replace(%en,k,‰)
+  set %en $replace(%en,l,Š) | set %en $replace(%en,m,‹) | set %en $replace(%en,n,Œ) | set %en $replace(%en,o,) | set %en $replace(%en,p,Ž)
+  set %en $replace(%en,q,) | set %en $replace(%en,r,$u()) | set %en $replace(%en,s,“) | set %en $replace(%en,t,”) | set %en $replace(%en,u,§)
+  set %en $replace(%en,v,•) | set %en $replace(%en,w,–) | set %en $replace(%en,x,—) | set %en $replace(%en,y,˜) 
+  set %en $replace(%en,z,å) | set %en $replace(%en,@,ë) | set %en $replace(%en,&,«) | set %en $replace(%en,$chr(35),¢) 
+  set %en $replace(%en,>,¥) | set %en $replace(%en,$chr(32),£) | set %en $replace(%en,<,µ) | set %en $replace(%en,*,±) 
+  set %en $replace(%en,!,ß) | set %en $replace(%en,^,é) | set %en $replace(%en,%,ä) | set %en $replace(%en,$,¼)
+  set %en $replace(%en,$chr(91),Ö) | set %en $replace(%en,$chr(93),°) | set %en $replace(%en,.,¿) | set %en $replace(%en,',6®) 
+  set %en $replace(%en,$chr($asc(|)),Î) | set %en $replace(%en,:,Ñ) | set %en $replace(%en,1,Æ)  
+  set %en $replace(%en,2,ó) | set %en $replace(%en,4,ò) | set %en $replace(%en,5,â) 
+  set %en $replace(%en,6,ý) | set %en $replace(%en,7,·) | set %en $replace(%en,8,¾) | set %en $replace(%en,9,Ð)
+  say 0,0MaLum %en | unset %en
+}
+/mdec { 
+  set %men $1-
+  set %men $replace(%men,½,?)
+  set %men $replace(%men,$nospace(),a) | set %men $replace(%men,3€,b) | set %men $replace(%men,,c) | set %men $replace(%men,‚,d) | set %men $replace(%men,ƒ,e) | set %men $replace(%men,„,f)
+  set %men $replace(%men,…,g) | set %men $replace(%men,†,h) | set %men $replace(%men,$u(‡),i) | set %men $replace(%men,ˆ,j) | set %men $replace(%men,‰,k)
+  set %men $replace(%men,Š,l) | set %men $replace(%men,‹,m) | set %men $replace(%men,Œ,n) | set %men $replace(%men,,o) | set %men $replace(%men,Ž,p)
+  set %men $replace(%men,,q) | set %men $replace(%men,$u(),r) | set %men $replace(%men,“,s) | set %men $replace(%men,”,t) | set %men $replace(%men,§,u)
+  set %men $replace(%men,•,v) | set %men $replace(%men,–,w) | set %men $replace(%men,—,x) | set %men $replace(%men,˜,y) 
+  set %men $replace(%men,å,z) | set %men $replace(%men,ë,@) | set %men $replace(%men,«,&) | set %men $replace(%men,¢,$chr(35)) 
+  set %men $replace(%men,¥,>) | set %men $replace(%men,£,$chr(32)) | set %men $replace(%men,µ,<) | set %men $replace(%men,±,*) 
+  set %men $replace(%men,ß,!) | set %men $replace(%men,é,^) | set %men $replace(%men,ä,%) | set %men $replace(%men,¼,$)
+  set %men $replace(%men,Ö,$chr(91)) | set %men $replace(%men,°,$chr(93)) | set %men $replace(%men,¿,.) | set %men $replace(%men,6®,')
+  set %men $replace(%men,Î,$chr($asc(|))) | set %men $replace(%men,Ñ,:) | set %men $replace(%men,Æ,1) 
+  set %men $replace(%men,ó,2) | set %men $replace(%men,ò,4) | set %men $replace(%men,â,5) 
+  set %men $replace(%men,ý,6) | set %men $replace(%men,·,7) | set %men $replace(%men,¾,8) | set %men $replace(%men,Ð,9)
+  return 4< $+ $token(1,46,%whosaid) $+ / $+ $token(2,46,%whosaid) $+ > 2 $+ %men $+  | unset %whosaid | unset %men
+}
+/eleet { set %leeten $1- | set %leeten $replace(%leeten,t,7) | set %leeten $replace(%leeten,s,5) | set %leeten $replace(%leeten,a,4)
+  set %leeten $replace(%leeten,e,3) | set %leeten $replace(%leeten,you,j00)  
+  set %leeten $replace(%leeten,why,y) | set %leeten $replace(%leeten,my,muh) | set %leeten $replace(%leeten,suck,sux)
+  set %leeten $replace(%leeten,o,0) | set %leeten $replace(%leeten,n,eN) | set %leeten $replace(%leeten,fool,f00) | set %leeten $replace(%leeten,been,be)
+  set %leeten $replace(%leeten,his,hiz) | set %leeten $replace(%leeten,rock,rawk) | set %leeten $replace(%leeten,people,peepz) 
+  set %leeten $replace(%leeten,going,goin') | say %leeten | unset %leeten
+}
+/rcaps {
+  set %text "" | set %rand $rand(1,2) | %i = 0 | :next | inc %i
+  if (%i > $len(*1)) { unset %rand | unset %thing | unset %i | return %text | halt } | if ($asc($mid(%i,1,*1)) == 32) { %text = %text $+   | goto next }
+  if (%rand == 1) { 
+    if (%i == 1) { %text = $upper($mid(%i,1,*1)) | set %thing 1 | goto next } | else { 
+    if (%thing == 1) { %text = %text $+ $lower($mid(%i,1,*1)) | set %thing 2 | goto next } | if (%thing == 2) { %text = %text $+ $upper($mid(%i,1,*1)) | set %thing 1 | goto next } } 
+  }
+  elseif (%rand == 2) { 
+    if (%i == 1) { %text = $lower($mid(%i,1,*1)) | set %thing 1 | goto next } | else { 
+    if (%thing == 1) { %text = %text $+ $upper($mid(%i,1,*1)) | set %thing 2 | goto next } | if (%thing == 2) { %text = %text $+ $lower($mid(%i,1,*1)) | set %thing 1 | goto next } } 
+  }
+}
+/nhold { if (# == $null) { return $null | halt } | set %len $len($1) | set %i $nick(0,#) | :re | if ($left(%len,$nick(%i,#)) == $left(%len,$1)) { return $nick(%i,#) | halt } | dec %i | if (%i == 0) { return $null | halt } | goto re }
+/ultimate /return $rainbow($rev($rcaps($u($bold($abc($rur($1-)))))))
+/abc { if ($1 == $null) { echo 2 -a *** Usage: /echo $abc(<text>) | halt } | set %abc.edge $count($1-,$chr(32)) + 1 | set %abc.hi 0 | if (%abc.edge == 1) { set %abc.say $1 | goto resol } | :start | inc %abc.bye | set %abc.t [ $+ [ %abc.bye ] ] [ $ [ $+ [ %abc.bye ] ] ] | if (%abc.bye == %abc.edge) { goto next } 
+  goto start | :next | set %abc.bye 1 | set %abc.hi %abc.bye + 1 | :disp | if (%abc.t [ $+ [ %abc.hi ] ] <= %abc.t [ $+ [ %abc.bye ] ] ) { set %abc.t %abc.t [ $+ [ %abc.bye ] ] | set %abc.t [ $+ [ %abc.bye ] ] %abc.t [ $+ [ %abc.hi ] ] | set %abc.t [ $+ [ %abc.hi ] ] %abc.t } | inc %abc.hi 
+  if (%abc.hi > %abc.edge) { inc %abc.bye | set %abc.hi %abc.bye + 1 } | if (%abc.bye == %abc.edge) { goto resol } | goto disp | :resol | set %abc.bye 1 | :echo | if (%abc.bye < %abc.edge) { set %abc.say %abc.say $+ %abc.t [ $+ [ %abc.bye ] ] $+ $chr(160) }
+  if (%abc.bye == %abc.edge) { set %abc.say %abc.say $+ %abc.t [ $+ [ %abc.bye ] ] | unset %abc.t* %abc.bye %abc.edge %abc.hi | .timer 1 5 /unset %abc.say | return %abc.say | halt } | inc %abc.bye | goto echo
+}
+/ghosty { set %aka 0 | set %tokens 0 | set %tokens $token(0,32,$1-) | :start | inc %aka
+  if (%aka > %tokens) { unset %len %len2 %text4 %text3 | return %fulltext | unset %fulltext | halt } | set %text2 $token(%aka,32,$1-) | set %text3 $mid(1,1,%text2) | set %len $len(%text2) | if ($len(%text2) == 1) { set %text4 0  | goto start2 }
+  set %len2 %len - 1 | set %text4 $right(%text2,%len2,%len) | :start2 | if (%fulltext == $null) { set %fulltext %text3 $+ $nospace(%text4) $+   | unset %text3 %text4 %len %len2 %text2 | goto start }
+  else { set %fulltext %fulltext $+ %text3 $+ $nospace(%text4) $+   | unset %text3 %text4 %len %len2 %text2 | goto start }
+}      
+/rur { set %tokens $token(0,32,$1-) | set %lkjm 0 | :start | inc %lkjm | if (%lkjm > %tokens) { unset %word %lenny %lenny2 %lenny3 %lenny4 %fullt %fullt2 %fullt3 %tokens %lkjm | .timer 1 1 /unset %fulltext | return %fulltext | halt }
+  set %word $token(%lkjm,32,$1-) | :starta | set %lenny $len(%word) | set %lenny2 $rand(1,%lenny) | set %lenny3 $rand(1,%lenny) | set %lenny4 $rand(1,%lenny)
+  if (%lenny == 1) || (%lenny == 2) { set %lenny2 1 | set %lenny3 1 | goto startc }
+  if (%lenny2 == %lenny3) || (%lenny3 == %lenny2) { unset %lenny2 %lenny3 | goto starta }
+  :startc
+  if (%fulltext == $null) { set %fullt $right(%word,%lenny2,%lenny) | set %fullt2 $mid(1,%lenny3,%word) | set %fullt3 $left(%word,%lenny4,%lenny) | set %fulltext $replace($replace($replace(%word,%fullt2,$u(%fullt2)),%fullt,$re(%fullt)),%fullt3,$bold(%fullt3)) $+   | unset %lenny %lenny2 %lenny3 %lenny4 | goto start }
+  set %fullt $right(%word,%lenny2,%lenny) | set %fullt2 $mid(1,%lenny3,%word) | set %fullt3 $left(%word,%lenny4,%lenny) | set %fulltext %fulltext $+ $replace($replace($replace(%word,%fullt2,$u(%fullt2)),%fullt,$re(%fullt)),%fullt3,$bold(%fullt3)) $+   | goto start
+} 
+/re /return  $+ $1- $+ 
+/u { return  $+ $1- $+  }
+/bold { return  $+ $1- $+  }
+/c { return  $+ $1 $+ $2- $+  }
+;This is taken from ebonics.mrc with some changes to fit MaLum
+/ebonics { %eb = $chr(160) $+ $replace($1-,$chr(32),$chr(160)) $+ $chr(160) | %eb = $replace(%eb, i , ah ) | %eb = $replace(%eb, are , be ) | %eb = $replace(%eb, am , be ) | %eb = $replace(%eb, is , be ) | %eb = $replace(%eb, pretty , fine ) | %eb = $replace(%eb, ask , ax )
+  %eb = $replace(%eb, alright , aight ) | %eb = $replace(%eb, hi , werd ) | %eb = $replace(%eb, hello , peace ) | %eb = $replace(%eb, friend , homey ) | %eb = $replace(%eb, man , nig ) | %eb = $replace(%eb, girl , bitch ) | %eb = $replace(%eb, people , brothas  ) | %eb = $replace(%eb, suck , wack )
+  %eb = $replace(%eb, cool , phat ) | %eb = $replace(%eb, neat , phat ) | %eb = $replace(%eb, awesome , phat ) | %eb = $replace(%eb, and , an' ) | %eb = $replace(%eb, my , muh )
+  %eb = $replace(%eb, don't , don' ) | %eb = $replace(%eb, friends , homies ) | %eb = $replace(%eb, you , ya ) | %eb = $replace(%eb, more , mo' ) | %eb = $replace(%eb, for , fo' )
+  %eb = $replace(%eb, everyone , brothas ) | %eb = $replace(%eb, this , dis ) | %eb = $replace(%eb, work , werk ) | %eb = $replace(%eb, beautiful , fine )
+  %eb = $replace(%eb, were , was ) | %eb = $replace(%eb, thing , thin' ) | %eb = $replace(%eb, anything , anythin' ) | %eb = $replace(%eb, something , somethin' )
+  %eb = $replace(%eb, there , dere ) | %eb = $replace(%eb, door , do' ) | %eb = $replace(%eb, anymore , anymo' ) | %eb = $replace(%eb, have , gots )
+  %eb = $replace(%eb, about , 'bout ) | %eb = $replace(%eb, the , de ) | %eb = $replace(%eb, get , git ) | %eb = $replace(%eb, warez , juarez )
+  %eb = $replace(%eb, shit , shizznit ) | %eb = $replace(%eb, having , havin' ) | %eb = $replace(%eb, using , usin' ) | %eb = $replace(%eb, fool , foo' ) | %eb = $replace(%eb, hey , yo )
+  %eb = $replace(%eb, good , pimp-tight ) | %eb = $replace(%eb, with , wiff ) | %eb = $replace(%eb, white , whitey ) | %eb = $replace(%eb, a , uh ) | %eb = $replace(%eb, shoot , sheeeyit )
+  %eb = $replace(%eb, went , go ) | %eb = $replace(%eb, guys , pimpz ) | %eb = $replace(%eb, them , dem ) | %eb = $replace(%eb, boys , nigs ) | %eb = $replace(%eb, girls , bitches )
+  %eb = $replace(%eb, fuck , fuq ) | %eb = $replace(%eb, best , bawmb ) | %eb = $replace(%eb, dude , nigga ) | %eb = $replace(%eb, dood , nigga ) | %eb = $replace(%eb, no , naw ) | %eb = $replace(%eb, that , dat )
+  %eb = $replace(%eb, was , been ) | %eb = $replace(%eb, you're , you ) | %eb = $replace(%eb, woman , bitch ) | %eb = $replace(%eb, oh , awww )
+  %eb = $replace(%eb, doesn't , don' ) | %eb = $replace(%eb, doesnt , don' ) | %eb = $replace(%eb, isn't , ain't ) | %eb = $replace(%eb, isnt , ain't ) | %eb = $replace(%eb, your , yo' )
+  %eb = $replace(%eb, to , ta ) | %eb = $replace(%eb, nigger , niggah) | %eb = $replace(%eb, niggers , niggahs) | %eb = $replace(%eb, stuff , sheeit ) | %eb = $replace(%eb, ebonics , ebonix )
+  %eb = $replace(%eb, they , dey ) | %eb = $replace(%eb, question , queshun ) | %eb = $replace(%eb, script , scrip' ) | %eb = $replace(%eb, i'm , ah'm ) | %eb = $replace(%eb, i'll , ah'll )
+  %eb = $replace(%eb, does , do ) | %eb = $replace(%eb, because , cuz ) | %eb = $replace(%eb, better , bettah ) | %eb = $replace(%eb, again , ag'in )
+  %eb = $replace(%eb, of , o' ) | %eb = $replace(%eb, saw , seen ) | %eb = $replace(%eb, rocks , roxors ) | %eb = $replace(%eb, dev , dehv )
+  %eb = $replace(%eb, core , coah ) | %eb = $replace(%eb, linux , leeunax ) | %eb = $replace(%eb, host , hewstah ) | %eb = $replace(%eb, isp , dapimp ) | %eb = $replace(%eb, linus , brolinus ) | %eb = $replace(%eb, porn , pr0n )
+  %eb = $replace(%eb, kernel , kernah ) | %eb = $replace(%eb, bored , mastabatin ) | %eb = $replace(%eb, nep , pent ) | %eb = $replace(%eb, neptho , godnepmahn ) | %eb = $replace(%eb, think , th'o't )
+  %eb = $replace(%eb, dna , bullsheeit ) | %eb = $replace(%eb, bash , whup ) | %eb = $replace(%eb, gun , cap ) | %eb = $replace(%eb, help , weh'fare ) | %eb = $replace(%eb, suck , blow ) | %eb = $replace(%eb, oj , bro'thah'oj )
+  %eb = $replace(%eb, intellect , branez ) | %eb = $replace(%eb, kha0s , kang'o'da'brothahs ) | %eb = $replace(%eb, marcia , beeitch ) | %eb = $replace(%eb, clark , beeitch ) | %eb = $replace(%eb, bitchx , da'beeitchx )
+  %eb = $replace(%eb, pot , codin'flowah ) | %eb = $replace(%eb, time , tyme ) | %eb = $replace(%eb, girl , ho ) | %eb = $replace(%eb, bud , brothah ) | %eb = $replace(%eb, friend , brothah )
+  %eb = $replace(%eb, mindstrm , brainrain ) | %eb = $replace(%eb, revmind , revbrainz ) | %eb = $replace(%eb, mkfs , maykefs ) | %eb = $replace(%eb, gnu , camel )
+  %eb = $replace(%eb, gcc , dakompiler ) | %eb = $replace(%eb, date , lay ) | %eb = $replace(%eb, shower , jiz'bath ) | %eb = $replace(%eb, X , malcom )
+  %eb = $replace(%eb, windows , squeegy ) | %eb = $replace(%eb, computer , geekbox ) | %eb = $replace(%eb, readme , read'dis ) | %eb = $replace(%eb, faq , fuq )
+  %eb = $replace(%eb, quota , de'call ) | %eb = $replace(%eb, rtfm , read'dathang ) | %eb = $replace(%eb, perl , oystershit ) | %eb = $replace(%eb, food , chitlins ) | %eb = $replace(%eb, ok , otay ) | %eb = $replace(%eb, unzip , drop'ya'draws )
+  %eb = $replace(%eb, gunzip , drop'ya'draws ) | %eb = $replace(%eb, zip , button'jo'fly ) | %eb = $replace(%eb, beer , 40oz ) | %eb = $replace(%eb, magazine , EbonyJet )
+  %eb = $replace(%eb, call , page ) | %eb = $replace(%eb, women , bitchez ) | %eb = $replace(%eb, nuts , bizzawz ) | %eb = $replace(%eb, house , hizzy )
+  %eb = $replace(%eb, pants , drizzawz ) | %eb = $replace(%eb, rad , krad ) | %eb = $replace(%eb, swern , swoin ) | %eb = $replace(%eb, fear , pheer ) | %eb = $replace(%eb, oakland , ebonix-world )
+  %eb = $replace(%eb, hack , hawc ) | %eb = $replace(%eb, bitch , beeotch ) | %eb = $replace(%eb, yeah , jaa ) | %eb = $replace(%eb, docs , dox ) | %eb = $replace(%eb, box , bawx )
+  %eb2 = $len(%eb) - 1 | %eb3 = $len(%eb) - 2 | .timer 1 1 /unset %eb %eb2 %eb3 | %eb = $replace(%eb, girlfriend , bitch ) | %eb = $replace(%eb, mother , old lady )
+  return $right($left($replace(%eb,$chr(160),$chr(32)),%eb2),%eb3)
+}
+/pig {
+  set %pig $1-
+  set %ping.tok $token(0,32,%pig)
+  :starta
+  inc %pig.inc
+  if (%pig.inc > %ping.tok) { unset %pig.inc %pig | .timer 1 1 /unset %pig.* | return %pig.full | halt }
+  set %pig.werd $token(%pig.inc,32,%pig)
+  if ($len(%ping.werd) == 1) { 
+    if (%ping.full == $null) { set %pig.full %pig.werd $+ ay $+   | goto starta }
+    if (%ping.full != $null) { set %pig.full %pig.full $+ %pig.werd $+ ay $+   | goto starta }
+  }
+  if (%pig.full == $null) { set %pig.l1 $len(%pig.werd) | set %pig.l2 %pig.l1 - 1 | set %pig.l3 $left(%pig.werd,1) | set %pig.full $right(%pig.werd,%pig.l2) $+ %pig.l3 $+ ay $+   | goto starta }
+  set %pig.l1 $len(%pig.werd) | set %pig.l2 %pig.l1 - 1 | set %pig.l3 $left(%pig.werd,1) | set %pig.full %pig.full $+ $right(%pig.werd,%pig.l2) $+ %pig.l3 $+ ay $+   | goto starta
+}

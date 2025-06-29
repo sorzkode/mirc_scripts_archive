@@ -1,0 +1,6 @@
+Close:/window -c @Hangman | unset %hangman*
+-
+Hints
+.Letters:/echo 2 -a *** There are $len(%hangman.word) letters ...
+.First letter:/echo 2 -a *** The first letter is $left(%hangman.word,1)
+

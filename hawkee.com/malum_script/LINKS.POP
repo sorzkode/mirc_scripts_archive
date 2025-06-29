@@ -1,0 +1,9 @@
+Connect:/server $1
+Portscan:/portscan $1
+Admin:/raw -q admin $1
+-
+O lines on server:/stats O $1
+K lines on server:/stats K $1
+Uptime on server:/stats u $1
+-
+Close:/window -c @Links

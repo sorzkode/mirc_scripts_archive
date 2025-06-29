@@ -1,0 +1,12 @@
+MaLum v7.2 Fserve by PyroMan and KRAkeR )
+----------------------------------------°
+
+1. Regular commands: ls,dir,cd,quit,bye,get,read
+
+2. Misc commands: credits,version,games,info
+
+--------------------------------------------------------------------------------
+| Bugs in fserve? Report 'em to firestorm@mindspring.com or masterj97@aol.com! |
+--------------------------------------------------------------------------------
+
+- This site CAN resume broken downloads!
