@@ -33,7 +33,7 @@
 
 <img width="788" alt="zip_structure" src="https://github.com/user-attachments/assets/2ee0668a-365f-4456-94ad-eddbf5bd5dc4" />
 
-## Screnshots / Demo
+## 🖼️ Screnshots / Demo
 
 Maybe later
 

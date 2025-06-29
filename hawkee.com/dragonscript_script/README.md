@@ -30,8 +30,10 @@
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/dragonscript_script/dragonscript_script.zip)  
 
 ## 📂 Zip File Structure
+<img width="788" alt="zip_structure" src="https://github.com/user-attachments/assets/cf9ad9e6-8c2a-4a70-80fd-073ad58f6503" />
 
-## Screnshots / Demo
+## 🖼️ Screnshots / Demo
+<img width="830" alt="thanks" src="https://github.com/user-attachments/assets/74d88d24-4818-4308-b838-010aceda8cec" />
 
 ## 📋 Features Overview
 
