@@ -1,8 +1,6 @@
-# MaLum 7.2
+# MaLum 7.2 mIRC Script
 
-## 🏛️ sorzkode's mIRC Script Archive
-
-This repository is part of a preservation effort to archive historic mIRC scripts and IRC-related software from the 1990s and early 2000s. These scripts represent an important part of IRC culture and early internet community development.
+## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
 ## ⚠️ Important Disclaimers
 
@@ -18,12 +16,17 @@ This repository is part of a preservation effort to archive historic mIRC script
 
 **Script Name:** MaLum  
 **Version:** 7.2  
-**Original Authors:** PyroMan and KRAkeR  
-**Release Date:** ~1997 (exact date unknown)  
-**Target Platform:** mIRC (Internet Relay Chat client)  
-**Compatible mIRC Versions:** Likely mIRC 5.x era (Windows 95/98)  
-**Network:** Designed for Undernet IRC network  
-**Support Channel:** #MaLum on Undernet (historical - likely no longer active)  
+**Category:** Full-Featured
+**Original Author(s):** PyroMan and KRAkeR  
+**Author Email:** <firestorm@mindspring.com> and <masterj97@aol.com>
+**Website:** [http://malum.home.ml.org/](http://malum.home.ml.org/)
+**Release Year:** 1997  
+**Compatible mIRC Versions:** mIRC 5.x  
+**Network:** Undernet  
+**Support Channel:** #MaLum on Undernet  
+**Scraped From:** [hawkee.com](http://www.hawkee.com:80/scripts/malum.zip)
+**Code Lines:** 4343
+**Tags:** multi-tool, away-system, clone-scanner, FServe, protection, scanner, games
 
 ## 📋 Features Overview
 
@@ -71,39 +74,6 @@ MaLum 7.2 was a comprehensive IRC script addon that provided numerous features f
 - **Operating System**: Windows 95/98 era compatibility
 - **Dependencies**: Requires mIRC client software
 
-## 📚 Historical Context
-
-MaLum 7.2 represents the IRC scripting culture of the late 1990s, when IRC was one of the primary forms of real-time internet communication. Scripts like MaLum provided power users with extensive customization and automation capabilities that weren't available in base IRC clients.
-
-This era of IRC scripting was characterized by:
-
-- Community-driven development
-- Feature-rich, all-in-one solutions
-- Network-specific optimizations
-- Integration of various internet services (email, web, etc.)
-- Social features and games
-
-## 🔐 Security Notice
-
-**This script contains features that may be considered inappropriate or potentially harmful by modern standards:**
-
-- Email bombing capabilities
-- Network scanning tools
-- Automated ban/kick systems
-- Clone detection and management
-- Innapropriate language etc.
-
-These features were common in IRC scripts of this era but should be used responsibly and in accordance with modern network policies and laws.
-
-## 🤝 Contributing
-
-If you have additional information about this script, its history, or related files, please feel free to contribute. This includes:
-
-- Historical documentation
-- Screenshots or usage examples
-- Related scripts or files
-- Corrections to historical information
-
 ## 📜 License & Legal
 
 This script is archived for historical preservation. Original copyright belongs to the original authors (PyroMan and KRAkeR). If you are an original author or copyright holder and have concerns about this archive, please contact the repository maintainer.
@@ -116,4 +86,4 @@ This script is archived for historical preservation. Original copyright belongs 
 
 ---
 
-*This archive is maintained for historical and educational purposes. The preservation of early internet culture and software is important for understanding the evolution of online communities and communication technologies.*
+*This archive is maintained for historical and educational purposes. The preservation of early internet culture and software is important for understanding the evolution of online communities and communication technologies.*  

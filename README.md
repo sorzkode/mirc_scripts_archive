@@ -1,12 +1,56 @@
 # mIRC Scripts Archive
 
-## 🏛️ Preserving IRC History & Early Internet Culture
+Welcome to sorzkode's mIRC Scripts Archive - a comprehensive preservation project dedicated to collecting / documenting mIRC scripts.
 
-Welcome to sorzkode's mIRC Scripts Archive - a comprehensive preservation project dedicated to collecting, documenting, and maintaining historic IRC scripts from the 1990s and early 2000s. I will be building this out as time permits. I have roughly 1000 scripts from all the popular scripting sites that I have scraped and organized. However, some of the process is going to be a bit manual / slow.
+## 🏛️ Purpose
 
-## 🎯 Mission Statement
+To preserve mIRC scripting history and culture. By hosting these files on GitHub, my hope is that they can live on for many more years.
 
-This repository serves as a digital museum for IRC scripting culture, preserving an important era of internet history when IRC was a primary platform for real-time communication and community building. These scripts represent the creativity, ingenuity, and collaborative spirit of early internet developers and power users. This is special to me because it was my introduction to programming. I believe this is the case for a lot of coders from my generation.
+## 🤔 But Why?
+
+Because scripting was my introduction to programming and I believe this is the case for a lot of coders from my generation. Oh, and because nostalgia is one helluva drug.
+
+## 📰 Background
+
+In the 90s and early 2000s, when [IRC](https://en.wikipedia.org/wiki/Wikipedia:IRC) was really booming, [mIRC](https://en.wikipedia.org/wiki/MIRC) was the popular chat client. mIRC allowed users to customize / modify their experience by using the [mIRC scripting language (mSL)](https://en.wikipedia.org/wiki/MIRC_scripting_language). This was so popular that there were websites dedicated to hosting these user-built scripts. Now, many of those sites no longer exist (see links below for some that do). However, [The Internet Archive](https://archive.org) indexed many of those sites and some of the files can still be found.
+
+## ⛏️ Methodology
+
+1. Used a Python script to leverage the Internet Archive's CDX (Canonical URL and Timestamp) API to download any available .zip files from the given sites. The original scrape was for the years of 1996-2008 only.  
+2. Extracted some metadata about the files with another script but this isn't perfect.  
+3. Used a script to delete many corrupted folders - original scrape count was nearly 3,000 files but over 1,800 were corrupted.
+
+## 📝 Archive Status
+
+### Current State
+
+- **Collection Phase**: ✅ Complete (CDX API scraping finished)
+- **Processing Phase**: 🔄 In Progress (sorting and cataloguing)
+- **Documentation Phase**: 📝 Ongoing (individual script READMEs)
+- **Verification Phase**: ⏳ Pending (community verification)
+
+### Future Plans
+
+1. **Complete Cataloguing**: Finish processing all recovered scripts
+2. **Quality Assessment**: Evaluate file integrity and completeness
+3. **Community Verification**: Seek input from original users/authors
+4. **Enhanced Documentation**: Add historical context and usage examples
+
+### 😭 Technical Limitations
+
+- **Snapshot Dependency**: Only URLs captured by Internet Archive are available
+- **Temporal Gaps**: Some periods may have limited or no coverage
+- **Metadata Loss**: Correlating the .zip files to the corresponding information pages for the scripts can be tricky - even with web scraping
+
+### 🕸️ Sites Scraped
+
+- **Hawkee.com** [Hawekee Wiki Entry](https://sorzkode.com/wiki/index.php?title=Hawkee.com)
+- **xcalibre.com**
+- **paIRC.com**
+- **mIRCX.com**
+- **mIRCScripts.org**
+- **mIRC.net**
+- **IRC-Scripts.com**
 
 ## ⚠️ Universal Disclaimers
 
@@ -21,31 +65,6 @@ This repository serves as a digital museum for IRC scripting culture, preserving
 - **Potential Security Risks**: Some scripts may contain outdated security practices or features
 - **Educational Value**: This archive primarily serves researchers, historians, and those interested in IRC culture
 
-## 📚 What You'll Find Here
-
-### Script Categories
-
-- **Channel Management**: Moderation tools, auto-ops, channel games
-- **Security Scripts**: Clone detection, flood protection, ban management
-- **Entertainment**: Games, trivia bots, text art generators
-- **Utility Scripts**: File servers, DNS tools, calculators
-- **Bot Scripts**: ChatBots, service bots, automated helpers
-- **Network Tools**: Port scanners, ping utilities, connection managers
-- **Text Processing**: Encoders, talkers, text transformation tools
-
-### Website Archives
-
-This repository is organized by the original websites and communities where these scripts were distributed:
-
-- **Hawkee.com** [Hawekee Wiki Entry](https://sorzkode.com/wiki/index.php?title=Hawkee.com)
-- **xcalibre.com**
-- **paIRC.com**
-- **mIRCX.com**
-- **mIRCScripts.org**
-- **mIRC.net**
-- **IRC-Scripts.com**
-- **Individual Collections**
-
 ## 🗂️ Repository Structure
 
 ```
@@ -58,55 +77,31 @@ mirc_scripts_archive/
 │   │   └── script files...
 ```
 
-## 📖 Historical Context
-
-### The Golden Age of IRC (1990s-early 2000s)
-
-During this era, IRC was one of the primary platforms for:
-
-- Real-time internet communication
-- File sharing and distribution
-- Gaming communities and coordination
-- Technical support and programming discussions
-- Early social networking
-
-### mIRC Scripting Culture
-
-mIRC's built-in scripting language enabled users to:
-
-- Automate common tasks
-- Create sophisticated bots and services
-- Develop games and entertainment
-- Build comprehensive channel management systems
-- Integrate external services and applications
-
-### Community Impact
-
-These scripts fostered:
-
-- **Innovation**: Creative problem-solving within scripting constraints
-- **Collaboration**: Shared knowledge and open-source development
-- **Learning**: Entry point for many into programming
-- **Community Building**: Tools that enhanced IRC social experiences
-
 ## 🤝 Contributing to the Archive
 
-### What We're Looking For
+### What I'm Looking For
 
 - Historic mIRC scripts (.mrc, .als, .ini files)
 - Original documentation and help files
 - Screenshots and usage examples
 - Historical information about scripts and authors
 - Website backups and archives
-- Community memories and stories
+- Memories and stories / logs
+- Links
 
 ### How to Contribute
+
+- Via GitHub  
 
 1. **Fork this repository**
 2. **Add your materials** following the established structure
 3. **Create proper documentation** using the README templates
 4. **Submit a pull request** with details about the contribution
 5. **Provide historical context** when possible
+
+- Directly  
+
+[Contact Me](https://sorzkode.com/contact)
 
 ### Contribution Guidelines
 
@@ -152,22 +147,6 @@ Some scripts may contain:
 - **Source Websites**: [To be updated]
 - **Categories**: [To be updated]
 
-## 🛠️ Technical Information
-
-### Original Environment
-
-- **Platform**: Windows 95/98/ME/2000/XP
-- **Client**: mIRC versions 4.x through 6.x
-- **Networks**: EFNet, Undernet, DALnet, QuakeNet, and others
-- **Protocols**: IRC (RFC 1459 and extensions)
-
-### Modern Considerations
-
-- Scripts may not work with current mIRC versions
-- Windows compatibility issues likely
-- Security implications of running legacy code
-- Network policy changes since original development
-
 ## 🔗 Related Resources
 
 ### IRC History & Documentation
@@ -183,18 +162,12 @@ Some scripts may contain:
 - [Computer History Museum](https://computerhistory.org/)
 
 ### People keeping the IRC dream alive
+
 - [mIRCScripts.info](https://mircscripts.info/)
 - [TECHGEAR007](https://www.tg007.net/)
 - [Coders-IRC](https://www.coders-irc.net/)
 - [IRC Driven](https://www.ircdriven.com/)
 - [mxbiteck's mIRCScripts.org Archive](https://github.com/mxbiteck/irc-addons-scripts)
-
-## 📞 Contact & Support
-
-For questions / feedback about this archive:
-
-- Use the standard github processes OR...
-- [Contact Form](https://sorzkode.com/contact/)
 
 ## 📜 License
 
