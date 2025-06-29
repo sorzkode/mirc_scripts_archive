@@ -23,7 +23,7 @@
 **Release Year:** 2004  
 **Compatible mIRC Versions:** mIRC 6.03+  
 **Network:** Multi  
-**Support Channel:** Unknown
+**Support Channel:** Unknown  
 **Scraped From:** [Hawkee.com](http://www.hawkee.com:80/scripts/stats461.zip)  
 **Code Lines:** 4420  
 **Tags:** statistics, system-info, webpages, dialogs, user-tracking, system-monitoring, popus, dialogs  
