@@ -29,8 +29,12 @@
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/shahmat_script/shahmat_script.zip)  
 
 ## 📂 Zip File Structure
+<img width="797" alt="zip_structure" src="https://github.com/user-attachments/assets/3040ac66-f78b-4391-8c2f-67e563dbca4f" />
 
 ## 🖼️ Screenshots / Demo
+<img width="1709" alt="authors" src="https://github.com/user-attachments/assets/320b80c3-fdfc-48a3-b113-4d5a92fc2b5b" />
+
+<img width="1679" alt="customize" src="https://github.com/user-attachments/assets/89b7e133-2ea8-4e8a-9a54-01875437240a" />
 
 ## 📋 Features Overview
 
