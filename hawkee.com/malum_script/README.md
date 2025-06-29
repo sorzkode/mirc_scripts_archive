@@ -1,6 +1,6 @@
-# MaLum 7.0
+# MaLum 7.2
 
-## 🏛️ Historic mIRC Script Archive
+## 🏛️ sorzkode's mIRC Script Archive
 
 This repository is part of a preservation effort to archive historic mIRC scripts and IRC-related software from the 1990s and early 2000s. These scripts represent an important part of IRC culture and early internet community development.
 
@@ -17,7 +17,7 @@ This repository is part of a preservation effort to archive historic mIRC script
 ## 🔍 Script Information
 
 **Script Name:** MaLum  
-**Version:** 7.2
+**Version:** 7.2  
 **Original Authors:** PyroMan and KRAkeR  
 **Release Date:** ~1997 (exact date unknown)  
 **Target Platform:** mIRC (Internet Relay Chat client)  
