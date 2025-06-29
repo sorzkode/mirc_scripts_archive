@@ -30,8 +30,10 @@
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/mircstats_script/mircstats_script.zip)  
 
 ## 📂 Zip File Structure
+<img width="790" alt="zip_structure" src="https://github.com/user-attachments/assets/3500334e-f5e9-4eac-bf80-a9f15191675a" />
 
 ## Screnshots / Demo
+<img width="842" alt="intro" src="https://github.com/user-attachments/assets/23b20c64-e228-40fc-93e1-6ca3c83e35c2" />
 
 ## 📋 Features Overview
 
