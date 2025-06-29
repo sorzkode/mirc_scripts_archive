@@ -30,12 +30,16 @@
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/malum_script/malum_script.zip)  
 
 ## 📂 Zip File Structure
+
 <img width="788" alt="zip_structure" src="https://github.com/user-attachments/assets/2ee0668a-365f-4456-94ad-eddbf5bd5dc4" />
 
+## Screnshots / Demo
+
+Maybe later
 
 ## 📋 Features Overview
 
-MaLum 7.2 was a comprehensive IRC script addon that provided numerous features for IRC users:
+MaLum 7.2 was a comprehensive mIRC script that provided numerous features for IRC users:
 
 ### 🛠️ Core Features
 
@@ -70,14 +74,6 @@ MaLum 7.2 was a comprehensive IRC script addon that provided numerous features f
 - **SpyBot**: Channel monitoring and reporting
 - **OperNut**: IRC operator service bot (for wIRCsrv)
 - **External Program Integration**: Launch external applications from mIRC
-
-## 🏗️ Technical Details
-
-- **Architecture**: mIRC scripting language (mSL)
-- **Configuration**: Popup menu-driven interface
-- **Network Support**: Primarily designed for Undernet
-- **Operating System**: Windows 95/98 era compatibility
-- **Dependencies**: Requires mIRC client software
 
 ## 📜 License & Legal
 

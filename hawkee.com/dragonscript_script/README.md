@@ -1,4 +1,4 @@
-# neXus mIRC Script
+# DragonScript 4.0 mIRC Script
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
@@ -14,32 +14,47 @@
 
 ## 🔍 Script Information
 
-**Script Name:** neXus  
-**Version:** 1.0  
-**Category:** Unknown  
-**Original Author(s):** _KaiSeR_  
-**Author Email:** <bomy@codetel.net.do>  
+**Script Name:** DragonScript  
+**Version:** 4.0  
+**Category:** Full-Featured  
+**Original Author(s):** Shadow  
+**Author Email:** <Scotsman78@hotmail.co.uk>  
 **Website:** Unknown  
-**Release Year:** 1997  
-**Compatible mIRC Versions:** mIRC 5.x  
-**Network:** Undernet  
-**Support Channel:** #tetrinet
-**Scraped From:** [hawkee.com](http://www.hawkee.com:80/scripts/neXus.zip)  
-**Code Lines:**  
-**Tags:** Unknown  
-**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/nexus_script/nexus_script.zip)  
+**Release Year:** 2004  
+**Compatible mIRC Versions:** mIRC 6.x  
+**Network:** Multi  
+**Support Channel:** Unknown  
+**Scraped From:** [hawkee.com](http://www.hawkee.com:80/scripts/DragonV4.0-small.zip)  
+**Code Lines:** 11651  
+**Tags:** multi-tool, away-system, mp3, channel-protection, user-protection, FServer, popups, auto-join, fkeys, aliases, themes, dialogs  
+**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/dragonscript_script/dragonscript_script.zip)  
 
-## 📂 Zip Folder Structure
-
-<img width="335" alt="zip_structure" src="https://github.com/user-attachments/assets/ed0b01b0-8d8e-498f-b4e5-14a0bf14b219" />
+## 📂 Zip File Structure
 
 ## Screnshots / Demo
 
-Maybe later
-
 ## 📋 Features Overview
 
-This script is packaged as a .EXE - therefore a lot of information about the functionality / features are unknown until testing is completed. My primary goal at the moment is to build out this archive and then I may do testing on scripts in a virtual environment at a later date.
+DranScript 4.0 was a full-featured script with the following listed features:
+
+### 🛠️ Core Features
+
+- **Away System**
+- **mp3 player**
+- **Channel protection**
+- **User protection**
+- **File server**
+- **Popups**
+- **Picture viewer**
+- **DCC system**
+- **nickserv/memoserv/chanserv/operserv**
+- **system information**
+- **auto joiner**
+- **channel pass**
+- **fkeys/alias**
+- **mts loader by anaconda**
+- **mts themes**
+- **html help files**
 
 ## 📜 License & Legal
 
@@ -53,4 +68,4 @@ This script is archived for historical preservation. Original copyright belongs 
 
 ---
 
-*This archive is maintained for historical and educational purposes. The preservation of early internet culture and software is important for understanding the evolution of online communities and communication technologies.*
+*This archive is maintained for historical and educational purposes. The preservation of early internet culture and software is important for understanding the evolution of online communities and communication technologies.*  
