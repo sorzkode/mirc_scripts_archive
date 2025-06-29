@@ -1,4 +1,5 @@
-# mIRC Scripts Archive
+#![mirc_icon_182544](https://github.com/user-attachments/assets/54e0774e-7aa1-4d92-bd16-a48d08860285)
+ mIRC Scripts Archive
 
 Welcome to sorzkode's mIRC Scripts Archive - a comprehensive preservation project dedicated to collecting / documenting mIRC scripts.
 
