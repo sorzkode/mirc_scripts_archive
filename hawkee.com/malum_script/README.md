@@ -18,15 +18,15 @@
 **Version:** 7.2  
 **Category:** Full-Featured
 **Original Author(s):** PyroMan and KRAkeR  
-**Author Email:** <firestorm@mindspring.com> and <masterj97@aol.com>
-**Website:** [http://malum.home.ml.org/](http://malum.home.ml.org/)
+**Author Email:** <firestorm@mindspring.com> and <masterj97@aol.com>  
+**Website:** [http://malum.home.ml.org/](http://malum.home.ml.org/)  
 **Release Year:** 1997  
 **Compatible mIRC Versions:** mIRC 5.x  
 **Network:** Undernet  
 **Support Channel:** #MaLum on Undernet  
-**Scraped From:** [hawkee.com](http://www.hawkee.com:80/scripts/malum.zip)
-**Code Lines:** 4343
-**Tags:** multi-tool, away-system, clone-scanner, FServe, protection, scanner, games
+**Scraped From:** [hawkee.com](http://www.hawkee.com:80/scripts/malum.zip)  
+**Code Lines:** 4343  
+**Tags:** multi-tool, away-system, clone-scanner, FServe, protection, scanner, games  
 
 ## 📋 Features Overview
 
