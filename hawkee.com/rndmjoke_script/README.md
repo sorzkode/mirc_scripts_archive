@@ -30,6 +30,7 @@
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/rndmjoke_script/rndmjoke_script.zip)  
 
 ## 📂 Zip File Structure
+<img width="785" alt="zip_structure" src="https://github.com/user-attachments/assets/2c4e2493-3f1d-45e4-a33c-2f17fc092b0a" />
 
 ## 🖼️ Screnshots / Demo
 
