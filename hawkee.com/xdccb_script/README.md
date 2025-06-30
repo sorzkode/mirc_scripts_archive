@@ -29,6 +29,7 @@
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/xdccb_script/xdccb_script.zip)  
 
 ## 📂 Zip File Structure
+<img width="800" alt="zip_structure" src="https://github.com/user-attachments/assets/b6692e2e-718d-4d9d-80dc-801a4ff685e4" />
 
 ## 🖼️ Screnshots / Demo
 
