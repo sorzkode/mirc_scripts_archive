@@ -17,7 +17,7 @@
 **Script Name:** Hawkee Pro  
 **Version:** 2.0  
 **Category:** Protection  
-**Original Author(s):** [Scott Aikin (Hawkee)](https://sorzkode.com/wiki/index.php?title=Scott_Aikin)
+**Original Author(s):** [Scott Aikin (Hawkee)](https://sorzkode.com/wiki/index.php?title=Scott_Aikin)  
 **Author Email:** <hawkee@hawkee.com>  
 **Website:** [http://www.hawkee.com](http://www.hawkee.com)  
 **Release Year:** 1997  

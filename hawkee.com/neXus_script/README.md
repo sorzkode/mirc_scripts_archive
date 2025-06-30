@@ -23,7 +23,7 @@
 **Release Year:** 1997  
 **Compatible mIRC Versions:** mIRC 5.x  
 **Network:** Undernet  
-**Support Channel:** #tetrinet
+**Support Channel:** #tetrinet  
 **Scraped From:** [hawkee.com](http://www.hawkee.com:80/scripts/neXus.zip)  
 **Code Lines:**  
 **Tags:** Unknown  

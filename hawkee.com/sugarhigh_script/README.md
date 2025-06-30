@@ -19,7 +19,7 @@
 **Category:** Channel Management  
 **Original Author(s):** ShapeShifter  
 **Author Email:** <phelps@efn.org>  
-**Website:** [http://www.efn.org/~phelps](http://www.efn.org/~phelps) 
+**Website:** [http://www.efn.org/~phelps](http://www.efn.org/~phelps)  
 **Release Year:** 1997  
 **Compatible mIRC Versions:** mIRC 4.7+  
 **Network:** Afternet  
