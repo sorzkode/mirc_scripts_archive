@@ -17,24 +17,22 @@ In the 90s and early 2000s, when [IRC](https://en.wikipedia.org/wiki/Wikipedia:I
 ## ⛏️ Methodology
 
 1. Used a Python script to leverage the Internet Archive's CDX (Canonical URL and Timestamp) API to download any available .zip files from the given sites. The original scrape was for the years of 1996-2008 only.  
-2. Extracted some metadata about the files with another script but this isn't perfect.  
-3. Used a script to delete many corrupted folders - original scrape count was nearly 3,000 files but over 1,800 were corrupted.
+2. Used a script to delete many corrupted folders - original scrape count was nearly 3,000 files but over 1,800 were corrupted.
+3. Used a script to extract .zip file information and script information to auto generate README files for each script. This isn't perfect and requires some manual verification in the outputted json files. After verification, I can automate creating the readme files. I have completed this for all hawkee files.
 
 ## 📝 Archive Status
 
 ### Current State
 
 - **Collection Phase**: ✅ Complete (CDX API scraping finished)
-- **Processing Phase**: 🔄 In Progress (sorting and cataloguing)
+- **Processing Phase**: ✅ Complete (files sorted)
 - **Documentation Phase**: 📝 Ongoing (individual script READMEs)
-- **Verification Phase**: ⏳ Pending (community verification)
 
 ### Future Plans
 
-1. **Complete Cataloguing**: Finish processing all recovered scripts
-2. **Quality Assessment**: Evaluate file integrity and completeness
-3. **Community Verification**: Seek input from original users/authors
-4. **Enhanced Documentation**: Add historical context and usage examples
+1. **Web UI**: Build a web UI to browse/sort/filter and download the scripts
+2. **Testing**: Manually test scripts in a sandbox environment
+3. **Updated documentation**: After testing, include screenshots / demos and notes
 
 ### 😭 Technical Limitations
 
@@ -42,15 +40,17 @@ In the 90s and early 2000s, when [IRC](https://en.wikipedia.org/wiki/Wikipedia:I
 - **Temporal Gaps**: Some periods may have limited or no coverage
 - **Metadata Loss**: Correlating the .zip files to the corresponding information pages for the scripts can be tricky - even with web scraping
 
-### 🕸️ Sites Scraped
+### 🕸️ Sources
 
-- **Hawkee.com** [Hawekee Wiki Entry](https://sorzkode.com/wiki/index.php?title=Hawkee.com)
-- **xcalibre.com**
-- **paIRC.com**
-- **mIRCX.com**
-- **mIRCScripts.org**
-- **mIRC.net**
-- **IRC-Scripts.com**
+- ✅ **Hawkee.com** [Hawekee Wiki Entry](https://sorzkode.com/wiki/index.php?title=Hawkee.com)
+- 📝 **xcalibre.com**
+- 📝 **paIRC.com**
+- 📝 **Other**
+- 📝 **mIRCX.com**
+- 📝 **mIRCScripts.org**
+- 📝 **mIRC.net**
+- 📝 **kegdoctors archive**
+- 📝 **IRC-Scripts.com**
 
 ## ⚠️ Universal Disclaimers
 
