@@ -1,4 +1,4 @@
-# neXus mIRC Script
+# neXus v1 by _KaiSeR_
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
@@ -16,17 +16,12 @@
 
 **Script Name:** neXus  
 **Version:** 1.0  
-**Category:** Unknown  
+**Category:** Full  
 **Original Author(s):** _KaiSeR_  
 **Author Email:** <bomy@codetel.net.do>  
 **Website:** Unknown  
 **Release Year:** 1997  
-**Compatible mIRC Versions:** mIRC 5.x  
-**Network:** Undernet  
-**Support Channel:** #tetrinet  
-**Scraped From:** [hawkee.com](http://www.hawkee.com:80/scripts/neXus.zip)  
-**Code Lines:**  
-**Tags:** Unknown  
+**Tags:** exe  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/neXus_script/nexus_script.zip)  
 
 ## 📂 Zip Folder Structure

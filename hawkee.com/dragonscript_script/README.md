@@ -1,4 +1,4 @@
-# DragonScript 4.0 mIRC Script
+# DragonScript v4.0 by Shadow
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
@@ -16,16 +16,11 @@
 
 **Script Name:** DragonScript  
 **Version:** 4.0  
-**Category:** Full-Featured  
-**Original Author(s):** Shadow  
-**Author Email:** <Scotsman78@hotmail.co.uk>  
-**Website:** Unknown  
-**Release Year:** 2004  
-**Compatible mIRC Versions:** mIRC 6.x  
-**Network:** Multi  
-**Support Channel:** Unknown  
-**Scraped From:** [hawkee.com](http://www.hawkee.com:80/scripts/DragonV4.0-small.zip)  
-**Code Lines:** 11651  
+**Category:** Full  
+**Author(s):** Shadow  
+**Email(s):** <Scotsman78@hotmail.co.uk>  
+**Website(s):** Unknown  
+**Year:** 2004  
 **Tags:** multi-tool, away-system, mp3, channel-protection, user-protection, FServer, popups, auto-join, fkeys, aliases, themes, dialogs  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/dragonscript_script/dragonscript_script.zip)  
 

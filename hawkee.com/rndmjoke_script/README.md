@@ -1,4 +1,4 @@
-# RndmJoke Generator mIRC Script
+# RndmJoke Generator v1 ReddeR (Rick Henderson)
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
@@ -17,15 +17,10 @@
 **Script Name:** RndmJoke Generator  
 **Version:** 1.0  
 **Category:** Entertainment  
-**Original Author(s):** Rick Henderson (ReddeR)  
+**Original Author(s):** ReddeR (Rick Henderson)  
 **Author Email:** <dee88@ix.netcom.com>  
 **Website:** Unknown  
 **Release Year:** 1997  
-**Compatible mIRC Versions:** mIRC 4.7+  
-**Network:** DALnet  
-**Support Channel(s):** #dee88  
-**Scraped From:** [Hawkee.com](http://www.hawkee.com:80/scripts/Randjoke.zip)  
-**Code Lines:** 254  
 **Tags:** entertainment, jokes, random, timers, humor, text-files, automation  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/rndmjoke_script/rndmjoke_script.zip)  
 

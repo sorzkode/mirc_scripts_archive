@@ -1,4 +1,4 @@
-# XDCC Browser v3.14 mIRC Script
+# XDCC Browser v3.14 by Yochai Timmer
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
@@ -17,14 +17,10 @@
 **Script Name:** XDCC Browser  
 **Version:** 3.14  
 **Category:** File Server  
-**Original Author(s):** Yochai Timmer  
-**Author Email:** <Yochai@Dorot.org.il>  
-**Website:** Unknown  
-**Release Year:** 2004  
-**Compatible mIRC Versions:** mIRC 6.14+  
-**Network:** Multi  
-**Support Channel(s):** Unknown  
-**Scraped From:** [Hawkee.com](http://www.hawkee.com:80/scripts/xdccbv314.zip)  
+**Author(s):** Yochai Timmer  
+**Email(s):** <Yochai@Dorot.org.il>  
+**Website(s):** Unknown  
+**Year:** 2004  
 **Tags:** xdcc, file-transfer, multi-server, automation, queue-management, mdx, dialogs, web-search  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/xdccb_script/xdccb_script.zip)  
 

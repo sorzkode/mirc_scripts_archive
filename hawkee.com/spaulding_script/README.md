@@ -1,4 +1,4 @@
-# Spaulding Script v0.1 mIRC Script
+# Spaulding Script v0.1 by Spaulding (Awalk)
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
@@ -16,16 +16,11 @@
 
 **Script Name:** Spaulding Script  
 **Version:** 0.1  
-**Category:** Basic  
-**Original Author(s):** Spaulding (Awalk)  
-**Author Email:** <Spaulding@hotmail.com>  
-**Website:** Unknown  
-**Release Year:** 1997  
-**Compatible mIRC Versions:** mIRC 4.x  
-**Network:** DALnet  
-**Support Channel:** Unknown  
-**Scraped From:** [hawkee.com](http://www.hawkee.com:80/scripts/spaulding.zip)  
-**Code Lines:** 887  
+**Category:** Full  
+**Author(s):** Spaulding (Awalk)  
+**Email(s):** <Spaulding@hotmail.com>  
+**Website(s):** Unknown  
+**Year:** 1997  
 **Tags:** basic, dalnet, channel-protection, flood-protection, aliases, popups, text-effects  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/spaulding_script/spaulding_script.zip)  
 

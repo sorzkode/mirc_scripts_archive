@@ -1,4 +1,4 @@
-# Hawkee Pro v2.0 mIRC Script
+# Hawkee Pro v2.0 By Hawkee (Scott Aikin)
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
@@ -17,14 +17,10 @@
 **Script Name:** Hawkee Pro  
 **Version:** 2.0  
 **Category:** Protection  
-**Original Author(s):** [Scott Aikin (Hawkee)](https://sorzkode.com/wiki/index.php?title=Scott_Aikin)  
-**Author Email:** <hawkee@hawkee.com>  
-**Website:** [http://www.hawkee.com](http://www.hawkee.com)  
+**Author(s):** [Hawkee (Scott Aikin)](https://sorzkode.com/wiki/index.php?title=Scott_Aikin)  
+**Email(s):** <hawkee@hawkee.com>  
+**Website(s):** [http://www.hawkee.com](http://www.hawkee.com)  
 **Release Year:** 1997  
-**Compatible mIRC Versions:** mIRC 4.7  
-**Network:** DALnet  
-**Support Channel:** Unknown  
-**Scraped From:** [Hawkee.com](http://www.hawkee.com:80/scripts/hawkee20.zip)  
 **Tags:** file-server, protection, flood-protection, channel-protection, fserve, anti-leech, clone-detection, ratio-system  
  
 ## 📂 Zip File Structure

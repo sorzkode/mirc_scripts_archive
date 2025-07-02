@@ -1,4 +1,4 @@
-# MaLum 7.2 mIRC Script
+# MaLum v7.2 by PyroMan, KRAkeR
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
@@ -16,16 +16,11 @@
 
 **Script Name:** MaLum  
 **Version:** 7.2  
-**Category:** Full-Featured  
-**Original Author(s):** PyroMan and KRAkeR  
-**Author Email:** <firestorm@mindspring.com> and <masterj97@aol.com>  
-**Website:** [http://malum.home.ml.org/](http://malum.home.ml.org/)  
-**Release Year:** 1997  
-**Compatible mIRC Versions:** mIRC 5.x  
-**Network:** Undernet  
-**Support Channel:** #MaLum on Undernet  
-**Scraped From:** [hawkee.com](http://www.hawkee.com:80/scripts/malum.zip)  
-**Code Lines:** 4343  
+**Category:** Full  
+**Author(s):** PyroMan and KRAkeR  
+**Email(s):** <firestorm@mindspring.com>, <masterj97@aol.com>  
+**Website(s):** [http://malum.home.ml.org/](http://malum.home.ml.org/)  
+**Year:** 1997  
 **Tags:** multi-tool, away-system, clone-scanner, FServe, protection, scanner, games  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/malum_script/malum_script.zip)  
 

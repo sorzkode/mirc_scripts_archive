@@ -1,4 +1,4 @@
-# mIRC Stats v4.61 mIRC Script
+# mIRC Stats v4.61 by Voice_of_Power
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
@@ -17,15 +17,10 @@
 **Script Name:** mIRC Stats  
 **Version:** 4.61  
 **Category:** Statistics  
-**Original Author(s):** Voice_of_Power  
-**Author Email:** <marckuiper@hotmail.com>  
-**Website:** [http://www.voiceofpower.us/](http://www.voiceofpower.us/)  
-**Release Year:** 2004  
-**Compatible mIRC Versions:** mIRC 6.03+  
-**Network:** Multi  
-**Support Channel:** Unknown  
-**Scraped From:** [Hawkee.com](http://www.hawkee.com:80/scripts/stats461.zip)  
-**Code Lines:** 4420  
+**Author(s):** Voice_of_Power  
+**Email(s):** <marckuiper@hotmail.com>  
+**Website(s):** [http://www.voiceofpower.us/](http://www.voiceofpower.us/)  
+**Year:** 2004  
 **Tags:** statistics, system-info, webpages, dialogs, user-tracking, system-monitoring, popus, dialogs  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/mircstats_script/mircstats_script.zip)  
 

@@ -1,4 +1,4 @@
-# SuGaR HiGh mIRC Script
+# SuGaR HiGh v1 by ShapeShifter
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
@@ -17,15 +17,10 @@
 **Script Name:** SuGaR HiGh  
 **Version:** 1.0  
 **Category:** Channel Management  
-**Original Author(s):** ShapeShifter  
-**Author Email:** <phelps@efn.org>  
-**Website:** [http://www.efn.org/~phelps](http://www.efn.org/~phelps)  
-**Release Year:** 1997  
-**Compatible mIRC Versions:** mIRC 4.7+  
-**Network:** Afternet  
-**Support Channel(s):** #Hackers_Den , #acidrat , #scriptworld , #chatzone , #afternet  
-**Scraped From:** [Hawkee.com](http://www.hawkee.com:80/scripts/sugarhi.zip)  
-**Code Lines:** 254  
+**Author(s):** ShapeShifter  
+**Email(s):** <phelps@efn.org>  
+**Website(s):** [http://www.efn.org/~phelps](http://www.efn.org/~phelps)  
+**Year:** 1997  
 **Tags:** channel-protection, auto-op, flood-protection, word-kick, channel-management, popups, aliases, away-system  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/sugarhigh_script/sugarhigh_script.zip)  
 

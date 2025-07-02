@@ -1,4 +1,4 @@
-# Shah Mat (checkmate) mIRC Script (chess game)
+# Shah Mat (checkmate) chess game v1 by Breadball (Caleb Cannon), Entr0py (Lawrence Reece)
 
 ## ⁉️ This is part of an mIRC script archiving project.. Please read the [README](https://github.com/sorzkode/retro_games_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/retro_games_archive) for more information / disclaimers  
 
@@ -16,15 +16,11 @@
 
 **script Name:** Shah Mat  
 **Version:** 1.0  
-**Category:** Games  
-**Original Author(s):** Caleb Cannon (Breadball) and Lawrence Reece (Entr0py)  
-**Author Email:** <urlord@sierra.net> and <lmreece@qtm.net>  
-**Website:** [Breadball](<http://www.mirc-scripts.bay-city.net/ops/Breadball>) & [Entr0py](www.qtm.net/~lmreece)  
+**Category:** Game  
+**Author(s):** Breadball (Caleb Cannon), Entr0py (Lawrence Reece)  
+**Email(s):** <urlord@sierra.net>, <lmreece@qtm.net>  
+**Website(s):** [http://www.mirc-scripts.bay-city.net/ops/Breadball](http://www.mirc-scripts.bay-city.net/ops/Breadball), [www.qtm.net/~lmreece](www.qtm.net/~lmreece)  
 **Release Year:** 1998  
-**Compatible mIRC Versions:** mIRC 5.41+  
-**Network:** Multi  
-**Support Channel:** Unknown  
-**Scraped From:** [Hawkee.com](http://www.hawkee.com:80/scripts/Chess.zip)  
 **Tags:** chess, games, entertainment  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/shahmat_script/shahmat_script.zip)  
 
