@@ -14,12 +14,12 @@
 
 ## 🔍 Script Information (metadta parsed from files)
 
-**Script Name:**   
+**Script Name:** BR Pager  
 **Version:** 1  
 **Category:** addon  
 **Author(s):** KnightMre  
 **Email(s):** <knightmr@bellsouth.net>  
-**Website(s):**   
+**Website(s):** Unknown  
 **Release Year:** 1998  
 **Tags:** addon, gui, alias  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/19990908164649_brpager/19990908164649_brpager.zip)  
@@ -54,18 +54,31 @@
 ## mirc/readthis.txt
 
 ```text
-This addon is fairly simple to use, just extract it to c:\, load it, turn it on, and wait.  to load type /load -rs brpager.mrc .  Once loaded it will ask if you want to run initialization settings, choose yes and the setup will guid you through the rest.  If you have any problems with this addon, please email at knightmr@bellsouth.net or page me on dalnet.
-NOTE: while the graphic window will only allow a message to be 28 characters in length the hidden window will log the page in its entirety
-also please view all pictures, and listen to all sounds before installing this component, as you will be asked to choose from them during setup
-
-KnightMre
-
-
-
-
-SHOUT OUTS:
-
-LordSiege  
-          :or what ever nivk you use now (constantly changing) for teaching me to script in mIRC5.02 and 5.11 way back when.
+This addon is fairly simple to use, just extract it to c:\, load it, turn it on, and wait.  to load type /load -rs brpager.mrc .  Once loaded it will ask if you want to run initialization settings, choose yes and the setup will guid you through the rest.  If you have any problems with this addon, please email at knightmr@bellsouth.net or page me on dalnet.
+
+NOTE: while the graphic window will only allow a message to be 28 characters in length the hidden window will log the page in its entirety
+
+also please view all pictures, and listen to all sounds before installing this component, as you will be asked to choose from them during setup
+
+
+
+KnightMre
+
+
+
+
+
+
+
+
+
+SHOUT OUTS:
+
+
+
+LordSiege  
+
+          :or what ever nivk you use now (constantly changing) for teaching me to script in mIRC5.02 and 5.11 way back when.
+
  
 ```

@@ -17,7 +17,7 @@
 **Script Name:** everclear  
 **Version:** 1.1  
 **Category:** protection  
-**Author(s):**   
+**Author(s):** Unknown  
 **Email(s):** <vega@mirc-scripts.com>  
 **Website(s):** [http://kmv.simplenet.com/index1.html](http://kmv.simplenet.com/index1.html), [http://kmv.simplenet.com/](http://kmv.simplenet.com/)  
 **Release Year:** 1997  
@@ -61,40 +61,69 @@
 ## Scripts/ec11a1/!!!ReadMe!!!.txt
 
 ```text
-+----------------[everclear 1.1a1]---------------------+
- Welcome to everclear version 1.1 alpha 1.  If you do 
- not have it already, you will need to download the 
- font that is used in this script (gwdte_437.fon) and
- put in in your fonts directory.  You may get it at :
- http://kmv.simplenet.com/gwdte_437.fon  Online help
- will appear when you type /hlp.  Please use the popups
- to your best advantage.  Thank you, and any questions/
- comments may be sent to vega@mirc-scripts.com, or you
- may fill out the online feedback form at :
- http://kmv.simplenet.com/index1.html  Thank you. 
-                                       - Matt
++----------------[everclear 1.1a1]---------------------+
+
+ Welcome to everclear version 1.1 alpha 1.  If you do 
+
+ not have it already, you will need to download the 
+
+ font that is used in this script (gwdte_437.fon) and
+
+ put in in your fonts directory.  You may get it at :
+
+ http://kmv.simplenet.com/gwdte_437.fon  Online help
+
+ will appear when you type /hlp.  Please use the popups
+
+ to your best advantage.  Thank you, and any questions/
+
+ comments may be sent to vega@mirc-scripts.com, or you
+
+ may fill out the online feedback form at :
+
+ http://kmv.simplenet.com/index1.html  Thank you. 
+
+                                       - Matt
+
 +------------------------------------------------------+
 ```
 
 ## Scripts/ec11a1/versions.txt
 
 ```text
-.--------------------------------------------->
-| +everclear+ v1.1a1 - Matt`     UPDATES
-|				 �������
-| 1.  Added an XDCC System (/xdcc for help)
-| 2.  Changed /whois in echo theme.
-| 3.  Added a port scanner.
-| 4.  Fixed Clone Scanner (made new one)
-| 5.  Added an auto-join channel.
-| 6.  Added an ascii filter.
-| 7.  Added a /hlp for all commands.
-| 8.  Finally added the test flood pro.
-| 9.  Added a few commands for easy opping/deop/voice...
-| 10. Changed color of the editbox.
-| 11. Changed users channel message appearance
-| 12. Changed normal theme.
-| 13. Added an add-on loader.
-|
+.--------------------------------------------->
+
+| +everclear+ v1.1a1 - Matt`     UPDATES
+
+|				 �������
+
+| 1.  Added an XDCC System (/xdcc for help)
+
+| 2.  Changed /whois in echo theme.
+
+| 3.  Added a port scanner.
+
+| 4.  Fixed Clone Scanner (made new one)
+
+| 5.  Added an auto-join channel.
+
+| 6.  Added an ascii filter.
+
+| 7.  Added a /hlp for all commands.
+
+| 8.  Finally added the test flood pro.
+
+| 9.  Added a few commands for easy opping/deop/voice...
+
+| 10. Changed color of the editbox.
+
+| 11. Changed users channel message appearance
+
+| 12. Changed normal theme.
+
+| 13. Added an add-on loader.
+
+|
+
 `-------------------------------------------------------
 ```
