@@ -17,7 +17,7 @@
 **Script Name:** DragonScript  
 **Version:** 6.4.0  
 **Category:** Full  
-**Author(s):** Shadow
+**Author(s):** Shadow  
 **Email(s):** <Scotsman78@hotmail.co.uk>  
 **Website(s):** Unknown  
 **Release Year:** 2005  
