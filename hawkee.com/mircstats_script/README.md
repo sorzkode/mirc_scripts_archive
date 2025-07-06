@@ -1,4 +1,4 @@
-# mIRC Stats v4.61 by Unknown
+# mIRC Stats v4.61 by Voice_of_Power
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 

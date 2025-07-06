@@ -1,4 +1,4 @@
-# DragonScript v6.4.0 by Unknown
+# DragonScript v6.4.0 by Shadow
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 

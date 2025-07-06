@@ -1,4 +1,4 @@
-# Spaulding Script v0.1 by Unknown
+# Spaulding Script v0.1 by Spaulding (Awalk)
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
