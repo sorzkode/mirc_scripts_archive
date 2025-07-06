@@ -1,4 +1,4 @@
-# SuGaR HiGh v1 by ShapeShifter
+# SuGaR HiGh v1.0 by Unknown
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
@@ -12,147 +12,88 @@
 - **Potentially Outdated/Incompatible**: This script was designed for much older versions of mIRC and Windows
 - **Educational Value**: This archive serves to document the evolution of IRC scripting and early internet culture
 
-## 🔍 Script Information
+## 🔍 Script Information (metadta parsed from files)
 
 **Script Name:** SuGaR HiGh  
 **Version:** 1.0  
 **Category:** Channel Management  
-**Author(s):** ShapeShifter  
-**Email(s):** <phelps@efn.org>  
-**Website(s):** [http://www.efn.org/~phelps](http://www.efn.org/~phelps)  
-**Year:** 1997  
-**Tags:** channel-protection, auto-op, flood-protection, word-kick, channel-management, popups, aliases, away-system  
+**Author(s):** Unknown  
+**Email(s):**   
+**Website(s):**   
+**Release Year:** 1997  
+**Tags:** mass kick, alias, slap, flood protection, greet, protection, auto-op, popup, wav, dcc, ascii art, popups, timer, auto op  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/sugarhigh_script/sugarhigh_script.zip)  
 
-## 📂 Zip File Structure
-<img width="800" alt="zip_structure" src="https://github.com/user-attachments/assets/b4d045fb-d0d5-4df4-a0f2-40018685a068" />
+## 📂 Zip File Structure (metadata parsed from .zip)
 
-## 🖼️ Screnshots / Demo
-Maybe later
+```json
+{}
+```
 
-## 📋 Features Overview
+## 📋 Excerpts (parsed readme / text files)
 
-SuGaR HiGh is a very basic channel management / protection script designed for mIRC 4.7.
+## READTHIS.TXT
 
-### 🛡️ Channel Protection Features
-
-- **User Level System**:
-  - Level 1: Default users (no special privileges)
-  - Level 7: Protected users (auto-unban protection)
-  - Level 8: Auto-op users (automatic operator status on join)
-
-- **Word Kick Protection**:
-  - Automatic kicking for profanity and inappropriate language
-  - Configurable word filtering system
-  - Custom kick messages for rule violations
-
-- **Ban Protection**:
-  - Automatic protection for level 7+ users
-  - Auto-unban and reinvite system
-  - Retaliatory kicks against ban abusers
-
-### 🤖 Automated Channel Management
-
-- **Auto-Op System**:
-  - Automatic operator privileges for trusted users (level 8)
-  - Join-based privilege assignment
-  - Configurable enable/disable functionality
-
-- **Anti-Flood Protection**:
-  - Text flood detection and prevention
-  - Nick change flood protection
-  - Action flood monitoring
-  - Progressive warning system with automatic kicks
-
-- **Channel Hopper Detection**:
-  - Automatic banning of frequent join/part users
-  - Configurable timing thresholds
-  - Custom ban messages for channel hoppers
-
-### 🔒 CTCP Command Blocking
-
-- **Security Features**:
-  - PING command blocking
-  - FINGER command blocking
-  - TIME command blocking
-  - USERINFO command blocking
-  - Custom block messages with script branding
-
-### 🌐 Network Features
-
-- **Net Split Detection**:
-  - Automatic detection of IRC network splits
-  - Split notifications and monitoring
-  - Server connection status tracking
-
-- **Multi-Server Support**:
-  - Afternet server integration
-  - AOhell network support
-  - DALnet connectivity
-  - Custom server connection options
-
-### 🎨 User Interface Enhancements
-
-- **Custom Popup Menus**:
-  - Main popup menu with script identification
-  - Query popup with entertainment commands
-  - Nicklist popup with comprehensive user management
-  - Channel popup with advanced channel controls
-
-- **Channel Management Tools**:
-  - Mass kick/ban/deop functionality
-  - Channel takeover capabilities
-  - Mode change shortcuts
-  - Topic management tools
-
-### 🎭 Entertainment Features
-
-- **Adlib System**:
-  - Three different madlib-style games
-  - User input integration for entertainment
-  - Custom message deployment
-
-- **ASCII Art Integration**:
-  - SuGaR HiGh logo display
-  - Game Over artwork
-  - Tongue artwork
-  - Custom art file playback system
-
-- **Sound Integration**:
-  - Nine Inch Nails sound files
-  - Chill music integration
-  - Custom sound file support (.wav/.mid)
-
-### ⚙️ Configuration Options
-
-- **Toggleable Features**:
-  - Auto-greet system with custom messages
-  - Word kick enable/disable
-  - Flood protection controls
-  - CTCP command blocking
-  - Channel hopper protection
-
-- **Away System**:
-  - Custom away messages
-  - Branded away notifications
-  - Special situation messages (bathroom breaks)
-
-- **Statistics Tracking**:
-  - Kick counter system
-  - Channel activity monitoring
-  - User interaction tracking
-
-## 🎯 Unique Technical Features
-
-## 📜 License & Legal
-
-This script is archived for historical preservation. Original copyright belongs to ShapeShifter. The script was completed on April 8th, 1997, with acknowledgments to contributors LORDacid (aka Smily), NightStriker, NevrMore, and Speedy13, all residing on Afternet IRC network. If you are the original author or copyright holder and have concerns about this archive, please contact the repository maintainer.
-
-## 🔗 Resources
-
-- [mIRC Official Website](https://www.mirc.com/)
-- [IRC History and Documentation](https://tools.ietf.org/rfc/rfc1459.txt)
-
----
-
-*This archive is maintained for historical and educational purposes. The preservation of early internet culture and software is important for understanding the evolution of online communities and communication technologies. SuGaR HiGh represents mid-1990s IRC script development focusing on channel protection and automated management.*
+```text
+!�!�SuGaR HiGh�!�! 
+
+
+   Contents
+1.Installing
+2.Adding users
+3.About the script
+
+
+
+1.Installing
+
+Start by moving all files into your mIRC directory.
+Open up mIRC 4.7, usually located in the c:/mirc directory, although
+i'd sure hope to God that you'd already know that.  Go to the Menu
+Bar and click on "Tools".  Drag down to "Aliases" and click on it.
+A window will pop-up.  Click on the "Load..." button.  Now find the
+file "sugarhi.ini" and double click on it.  You have just installed
+part of the script.  Next go to "Tools" again and drag down to "Popups".
+Load the script the same way as before.  Next return to "Tools" one
+last time.  Drag down to "Remote".  Load the same as before, only this
+time you'll have to load each of the options.  So click on "Users", load
+the script, then click on "Variables", load the script, then "Commands",
+"Events", and finally "Raw". Once done, you are now using SuGaR HiGh.
+
+2.Adding Users
+
+Users are given certain abilities, depending on the number you give
+them.  The higher the number, the more power they have.  Of course, you
+get to have the highest number.  So go to "Tools" located on the menu
+bar, drag down to "Remote" and then click on "Users".  This window is
+empty now, but you can fill it with as many people as you want by
+following the rules as follows.  The only reason you should add yourself
+is so the script protects you.  Otherwise, you don't even need to if
+you feel that it's a little complicated.  Anyway, you add users to the
+user list in this form:
+#:*!*user@*host.com
+The spot with the # sign will be replaced with a number depending on the
+level of the person you wish to give them.  You should be able to
+figure out the rest of that line.  If not, then ask in a channel and
+most everyone will be able to answer you.
+Here are the different numbers and what power they have.  There are only
+a few needed for this script:
+
+1: Default number.  You don't need to add this to anyone.
+7: Protected user.  When one of these users is banned, the script will
+    help them.
+8: Auto-op user.  When one of these users joins a channel which you have
+    ops in, you give them ops.
+
+3. About the Script
+
+SuGaR HiGh was finished on April 8th, 1997.  It was made by ShapeShifter.
+Visit my web page at http://www.efn.org/~phelps.  All aspects of the
+script are originally written by the author and not copied from any
+other script.  People who helped along the way are LORDacid (aka Smily),
+NightStriker, NevrMore, and Speedy13.  All of us reside on Afternet,
+IRC server address agora.rdrop.com.  Thanks a million for supporting me.
+If you have any questions about something not mentioned in this file,
+send an email message to phelps@efn.org explaining your problem and/or
+question.
+```

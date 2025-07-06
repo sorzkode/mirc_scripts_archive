@@ -1,4 +1,4 @@
-# Spaulding Script v0.1 by Spaulding (Awalk)
+# Spaulding Script v0.1 by Unknown
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
@@ -12,97 +12,32 @@
 - **Potentially Outdated/Incompatible**: This script was designed for much older versions of mIRC and Windows
 - **Educational Value**: This archive serves to document the evolution of IRC scripting and early internet culture
 
-## 🔍 Script Information
+## 🔍 Script Information (metadta parsed from files)
 
 **Script Name:** Spaulding Script  
 **Version:** 0.1  
 **Category:** Full  
-**Author(s):** Spaulding (Awalk)  
-**Email(s):** <Spaulding@hotmail.com>  
-**Website(s):** Unknown  
-**Year:** 1997  
-**Tags:** basic, dalnet, channel-protection, flood-protection, aliases, popups, text-effects  
+**Author(s):** Unknown  
+**Email(s):**   
+**Website(s):**   
+**Release Year:** 1997  
+**Tags:** mass kick, notify, auto kick, popup, popups, kickban, swear, alias, auto-op, dcc, slap, user levels, protection, midi, mass op, timer, auto op, nicklist, flood protection, wav  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/spaulding_script/spaulding_script.zip)  
 
-## 📂 Zip File Structure
-<img width="842" alt="zip_structure" src="https://github.com/user-attachments/assets/9ac311b3-fadf-4e74-b70d-fd2a68b1ec39" />
+## 📂 Zip File Structure (metadata parsed from .zip)
 
-## Screnshots / Demo
+```json
+{}
+```
 
-Maybe later
+## 📋 Excerpts (parsed readme / text files)
 
-## 📋 Features Overview
+## readme.txt
 
-Spaulding Script v0.1 was designed as a beginner's first attempt at mIRC scripting with the following features:
-
-### 🛠️ Core Features
-
-- **DALnet Server Integration**: Pre-configured with 30+ DALnet servers
-- **Channel Protection Systems**:
-  - Nick flood protection (automatic user leveling and kicking)
-  - Notice flood protection
-  - Repeat message detection and kicking
-  - Advertisement/invite kicking
-  - Op begging protection
-  - Auto-kick for shitlisted users
-
-### 🎨 Text Effects & Fun Commands
-
-- **Colored Text Systems**:
-  - `/ck` - "Rad" colored text with number prefixes
-  - `/ftalk` - Foreign character substitution
-  - `/lol` - Multi-colored foreign characters
-
-### 🔧 IRC Utility Features
-
-- **Channel Statistics** (`/stats`): Detailed channel analysis including ops, voices, away users, clones
-- **Netsplit Detection**: Automatic detection and announcement of server splits
-- **Auto-op System**: User level-based automatic opping
-- **Away System**: Page collection and notification system
-
-### 🎮 User Interface
-
-- **Comprehensive Popup Menus**:
-  - Main popup (mPopup) with server connections and services
-  - Channel popup (cPopup) with moderation tools
-  - Query popup (qPopup) for private messages
-  - Nicklist popup (lPopup) with user management
-  - Status popup (bPopup) for general commands
-
-### 🌐 DALnet Services Integration
-
-- **ChanServ Commands**: Full integration for channel registration and management
-- **NickServ Commands**: Nick registration, ghost, recovery functions
-- **MemoServ Commands**: Memo reading and sending capabilities
-
-### 🛡️ Security Features
-
-- **User Level System**: Multiple protection levels (shitlist=301, shutup=602, aop=10)
-- **Automatic Banning**: Temporary bans for various infractions
-- **Clone Detection**: Identifies users from same host
-
-## 🎨 Unique Script Elements
-
-### Special Character Usage
-
-The script makes extensive use of special ASCII and extended characters for visual appeal, creating a distinctive "§юащЈРмсg §ўRмюt" (Spaulding Script) signature.
-
-### Text Transformation Functions
-
-- Character substitution using foreign/special characters
-- Multi-color text generation
-- Automated text styling for channel announcements
-
-## 📜 License & Legal
-
-This script is archived for historical preservation. Original copyright belongs to Spaulding (Awalk). If you are the original author or copyright holder and have concerns about this archive, please contact the repository maintainer.
-
-## 🔗 Resources
-
-- [mIRC Official Website](https://www.mirc.com/)
-- [IRC History and Documentation](https://tools.ietf.org/rfc/rfc1459.txt)
-- [DALnet IRC Network](http://www.dal.net/)
-
----
-
-*This archive is maintained for historical and educational purposes. The preservation of early internet culture and software is important for understanding the evolution of online communities and communication technologies.*
+```text
+Hello, Welcome to Spaulding Script v0.1. 
+	This is my first attempt at writing a script and
+its REALLY easy to install. Just make a new folder c:/spaulding
+And copy all the files to it. Paste a copy of mIRC32 also to 
+C:/spaulding . Thats it! Just run mirc and your done!
+```

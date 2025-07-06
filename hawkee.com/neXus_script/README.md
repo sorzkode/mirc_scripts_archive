@@ -1,4 +1,4 @@
-# neXus v1 by _KaiSeR_
+# neXus v1.0 by Unknown
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers  
 
@@ -12,40 +12,126 @@
 - **Potentially Outdated/Incompatible**: This script was designed for much older versions of mIRC and Windows
 - **Educational Value**: This archive serves to document the evolution of IRC scripting and early internet culture
 
-## 🔍 Script Information
+## 🔍 Script Information (metadta parsed from files)
 
 **Script Name:** neXus  
 **Version:** 1.0  
 **Category:** Full  
-**Original Author(s):** _KaiSeR_  
-**Author Email:** <bomy@codetel.net.do>  
-**Website:** Unknown  
+**Author(s):** Unknown  
+**Email(s):**   
+**Website(s):**   
 **Release Year:** 1997  
-**Tags:** exe  
-**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/neXus_script/nexus_script.zip)  
+**Tags:** mass kick, notify, highlight, trigger, xdcc, popup, rejoin, interface, popups, ascii art, insult, away log, kickban, swear, alias, rpg, uno, auto-voice, dcc, slap, user levels, addon, mp3, uptime, greet, protection, fserve, timer, bot, mass op  
+**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/nexus_script/nexus_script.zip)  
 
-## 📂 Zip Folder Structure
+## 📂 Zip File Structure (metadata parsed from .zip)
 
-<img width="335" alt="zip_structure" src="https://github.com/user-attachments/assets/ed0b01b0-8d8e-498f-b4e5-14a0bf14b219" />
+```json
+{
+  "name": "nexus_script.zip",
+  "file_count": 120,
+  "file_types": [
+    ".bat",
+    ".btf",
+    ".eng",
+    ".exe",
+    ".hlp",
+    ".ini",
+    ".lnk",
+    ".log",
+    ".msg",
+    ".pif",
+    ".txt"
+  ],
+  "max_file_date": "1997-05-24",
+  "min_file_date": "1994-02-23",
+  "total_size": 1302.79,
+  "largest_file": "[neXus]/[neXus].exe",
+  "text": [
+    "[neXus]/Ascii/2FINGER.txt",
+    "[neXus]/Ascii/BEEF.txt",
+    "[neXus]/Ascii/BUNNY.TXT",
+    "[neXus]/Ascii/COMMANDS.TXT",
+    "[neXus]/Ascii/CORNHO1.TXT",
+    "[neXus]/Ascii/CTCP.LOG",
+    "[neXus]/Ascii/DRAGON.txt",
+    "[neXus]/Ascii/FART.txt",
+    "[neXus]/Ascii/FUCKOFF.txt",
+    "[neXus]/Ascii/GUN.txt",
+    "[neXus]/Ascii/HAHA.txt",
+    "[neXus]/Ascii/ice.txt",
+    "[neXus]/Ascii/MEOW.TXT",
+    "[neXus]/Ascii/NOTES.TXT",
+    "[neXus]/Ascii/P&B1.TXT",
+    "[neXus]/Ascii/PISS.txt",
+    "[neXus]/Ascii/ports.txt",
+    "[neXus]/Ascii/ROSE2.TXT",
+    "[neXus]/Ascii/ROTATE.txt",
+    "[neXus]/Ascii/SNOWMAN.txt",
+    "[neXus]/Ascii/SPAM.TXT",
+    "[neXus]/Ascii/SPCSHTTL.TXT",
+    "[neXus]/Ascii/splitpop.txt",
+    "[neXus]/Ascii/splits.txt",
+    "[neXus]/Ascii/SPOO.txt",
+    "[neXus]/Ascii/TIGER.TXT",
+    "[neXus]/Ascii/TRAIN.txt",
+    "[neXus]/Ascii/w00p.txt",
+    "[neXus]/Ascii/WEB.txt",
+    "[neXus]/Ascii/WHATEVER.txt",
+    "[neXus]/Ascii/YOMAMA.TXT",
+    "[neXus]/Bin/ep.ini",
+    "[neXus]/Bin/font.ini",
+    "[neXus]/Bin/ko.ini",
+    "[neXus]/Bin/zirc.ini",
+    "[neXus]/CS.LOG",
+    "[neXus]/mIRC.hlp",
+    "[neXus]/mirc.ini",
+    "[neXus]/NSTAT/ICMP.LOG",
+    "[neXus]/NSTAT/Report.LOG",
+    "[neXus]/scan.ini",
+    "[neXus]/servers.ini",
+    "[neXus]/System/a-ascii.txt",
+    "[neXus]/System/a-frog.txt",
+    "[neXus]/System/a-main.txt",
+    "[neXus]/System/a-shortcuts.txt",
+    "[neXus]/System/p-channel.txt",
+    "[neXus]/System/p-menu.txt",
+    "[neXus]/System/p-nick.txt",
+    "[neXus]/System/p-query.txt",
+    "[neXus]/System/p-status.txt",
+    "[neXus]/System/r-ctcp.txt",
+    "[neXus]/System/r-events.txt",
+    "[neXus]/System/r-raw.txt",
+    "[neXus]/System/r-users.txt",
+    "[neXus]/System/r-var.txt",
+    "[neXus]/remote.ini",
+    "[neXus]/ICMP.LOG",
+    "[neXus]/readme.txt",
+    "[neXus]/[neXus].ini"
+  ]
+}
+```
 
-## 🖼️ Screnshots / Demo
+## 📋 Excerpts (parsed readme / text files)
 
-Maybe later
+## [neXus]/readme.txt
 
-## 📋 Features Overview
+```text
+Maker of [neXus]:
+	_KaiSeR_, with a little help from _StriKeR_
+
+Why I Made it:
+	Tired of seeing all my friends with their own scripts..... So 
+I decided to make my own.
+
+If you want help: 
+	Please don't bother me for dumb shit... if it is real impor-
+tant then you can email me at bomy@codetel.net.do
+
+A little bit about myself:
+	I am 16 years old and very enthusiastic to learn all there is 
+about computers. I live in the Tropical Paradise known as Dominican 
+Republic. Briefly thats all I can say right now. Oh and one more thing 
+if you are on the Irc come by to #dashit.
 
-This script is packaged as a .EXE - therefore a lot of information about the functionality / features are unknown until testing is completed. My primary goal at the moment is to build out this archive and then I may do testing on scripts in a virtual environment at a later date.
-
-## 📜 License & Legal
-
-This script is archived for historical preservation. Original copyright belongs to the original authors (PyroMan and KRAkeR). If you are an original author or copyright holder and have concerns about this archive, please contact the repository maintainer.
-
-## 🔗 Resources
-
-- [mIRC Official Website](https://www.mirc.com/)
-- [IRC History and Documentation](https://tools.ietf.org/rfc/rfc1459.txt)
-- [Undernet IRC Network](http://www.undernet.org/)
-
----
-
-*This archive is maintained for historical and educational purposes. The preservation of early internet culture and software is important for understanding the evolution of online communities and communication technologies.*
+```
