@@ -17,8 +17,8 @@
 **Script Name:** Spaulding Script  
 **Version:** 0.1  
 **Category:** Full  
-**Author(s):** Unknown  
-**Email(s):**   
+**Author(s):** Spaulding (Awalk)  
+**Email(s):** <Spaulding@hotmail.com>  
 **Website(s):**   
 **Release Year:** 1997  
 **Tags:** mass kick, notify, auto kick, popup, popups, kickban, swear, alias, auto-op, dcc, slap, user levels, protection, midi, mass op, timer, auto op, nicklist, flood protection, wav  
@@ -27,7 +27,32 @@
 ## 📂 Zip File Structure (metadata parsed from .zip)
 
 ```json
-{}
+{
+"name": "spaulding_script.zip",
+"file_count": 12,
+"file_types": [
+".exe",
+".ini",
+".txt"
+],
+"max_file_date": "1997-04-02",
+"min_file_date": "1997-01-09",
+"total_size": 732.91,
+"largest_file": "mirc32.exe",
+"text": [
+"remote.ini",
+"finger.txt",
+"LINKS.TXT",
+"mirc.ini",
+"PAGES.TXT",
+"popups.ini",
+"aliases.ini",
+"servers.ini",
+"spaulding.ini",
+"urls.ini",
+"readme.txt"
+]
+}
 ```
 
 ## 📋 Excerpts (parsed readme / text files)
@@ -35,9 +60,13 @@
 ## readme.txt
 
 ```text
-Hello, Welcome to Spaulding Script v0.1. 
-	This is my first attempt at writing a script and
-its REALLY easy to install. Just make a new folder c:/spaulding
-And copy all the files to it. Paste a copy of mIRC32 also to 
+Hello, Welcome to Spaulding Script v0.1. 
+
+	This is my first attempt at writing a script and
+
+its REALLY easy to install. Just make a new folder c:/spaulding
+
+And copy all the files to it. Paste a copy of mIRC32 also to 
+
 C:/spaulding . Thats it! Just run mirc and your done!
 ```

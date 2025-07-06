@@ -17,9 +17,9 @@
 **Script Name:** DragonScript  
 **Version:** 6.4.0  
 **Category:** Full  
-**Author(s):** Unknown  
-**Email(s):**   
-**Website(s):**   
+**Author(s):** Shadow
+**Email(s):** <Scotsman78@hotmail.co.uk>  
+**Website(s):** Unknown  
 **Release Year:** 2005  
 **Tags:** trigger, log viewer, auto ban, midi, bot, highlight, dialog, fserve, mp3 player, mp3, greet, script editor, tab 5, queue system, addon, notify, nicklist, toolbar, fserver, uptime, alias, dcc, protection, wav, auto join, rpg, nick alert, welcome message, gui, interface  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/dragonscript_script/dragonscript_script.zip)  
@@ -94,81 +94,157 @@
 ## DragonV4.0-small/readme.txt
 
 ```text
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Introduction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-This is 4th version of dragon now, still not as good as it can be, more of a file serveing mirc now, thow it can be used to chat as well, alot of changes in new version which can be found on updates text file with download. usage of dlls and hash tbales for first time
-
-thank you for downloading and trying dragon out and i hope all is well with you
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Requirements
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-mirc version : 6.1 or upwards
-operating system : windows xp professional
-harddiskspace: 1.2mb to 2.5mb
-resolution: 1024 x 768 ( recommanded )
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-HOW TO INSTALL
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-to install is very easy,just follow these steps
-
-1) unzip to any folder on your harddrive
-
-2) need a mirc.exe file now on your computer, if you don't have one can
-   download mirc 6.16
-   http://www.mirc.com
-
-3) once you have a mirc.exe,just move it into the main dragon folder
-  or right click on it and copy, then paste into folder
-
-4) should be good to go now
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Contents
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--away system
--mp3 player
--channel protection
--user protection
--file server
--popups
--picture viewer
--dcc system
--nickserv/memoserv/chanserv/operserv
--system information
--auto joiner 
--channel pass
--fkeys/alias
--mts loader by anaconda
--mts themes
--html help files
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Contact
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-as any coder will know,much as you try and avoid it,there always 
-at least one bug after you first bring something out
-any bugs found or questions, can email me at addy below
-
-Scotsman78@hotmail.co.uk
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Future Plans and Updates
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Want to code my own theme system for this script but at very least replace the
-mts themes used in this version with my own. Not got alot of time to do so, got no idea
-when i have time
-
-still some improvement in script to be done possiblle, depends on feedback i get
-
-i am thinking of codeing a log viewer, making a run console that was once in script
-
-no doubt i will have a 5th version some day, not sure how it will turn out yet or how
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Introduction
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is 4th version of dragon now, still not as good as it can be, more of a file serveing mirc now, thow it can be used to chat as well, alot of changes in new version which can be found on updates text file with download. usage of dlls and hash tbales for first time
+
+
+
+thank you for downloading and trying dragon out and i hope all is well with you
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Requirements
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+mirc version : 6.1 or upwards
+
+operating system : windows xp professional
+
+harddiskspace: 1.2mb to 2.5mb
+
+resolution: 1024 x 768 ( recommanded )
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+HOW TO INSTALL
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+to install is very easy,just follow these steps
+
+
+
+1) unzip to any folder on your harddrive
+
+
+
+2) need a mirc.exe file now on your computer, if you don't have one can
+
+   download mirc 6.16
+
+   http://www.mirc.com
+
+
+
+3) once you have a mirc.exe,just move it into the main dragon folder
+
+  or right click on it and copy, then paste into folder
+
+
+
+4) should be good to go now
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Contents
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-away system
+
+-mp3 player
+
+-channel protection
+
+-user protection
+
+-file server
+
+-popups
+
+-picture viewer
+
+-dcc system
+
+-nickserv/memoserv/chanserv/operserv
+
+-system information
+
+-auto joiner 
+
+-channel pass
+
+-fkeys/alias
+
+-mts loader by anaconda
+
+-mts themes
+
+-html help files
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Contact
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+as any coder will know,much as you try and avoid it,there always 
+
+at least one bug after you first bring something out
+
+any bugs found or questions, can email me at addy below
+
+
+
+Scotsman78@hotmail.co.uk
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Future Plans and Updates
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Want to code my own theme system for this script but at very least replace the
+
+mts themes used in this version with my own. Not got alot of time to do so, got no idea
+
+when i have time
+
+
+
+still some improvement in script to be done possiblle, depends on feedback i get
+
+
+
+i am thinking of codeing a log viewer, making a run console that was once in script
+
+
+
+no doubt i will have a 5th version some day, not sure how it will turn out yet or how
+
 long away it will be
 ```

@@ -17,9 +17,9 @@
 **Script Name:** Shah Mat  
 **Version:** 1.0  
 **Category:** game  
-**Author(s):** Unknown  
-**Email(s):**   
-**Website(s):**   
+**Author(s):** Breadball (Caleb Cannon), Entr0py (Lawrence Reece)  
+**Email(s):** <urlord@sierra.net>, <lmreece@qtm.net>  
+**Website(s):** [http://www.mirc-scripts.bay-city.net/ops/Breadball](http://www.mirc-scripts.bay-city.net/ops/Breadball), [www.qtm.net/~lmreece](www.qtm.net/~lmreece)  
 **Release Year:** 1998  
 **Tags:** nicklist, alias, highlight, rpg, protection, popup, bot, wav, popups, slap, timer, chess, entertainment  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/hawkee.com/shahmat_script/shahmat_script.zip)  
@@ -27,7 +27,32 @@
 ## 📂 Zip File Structure (metadata parsed from .zip)
 
 ```json
-{}
+{
+"name": "shahmat_script.zip",
+"file_count": 20,
+"file_types": [
+".bmp",
+".chs",
+".cnt",
+".hlp",
+".mrc"
+],
+"max_file_date": "1998-12-25",
+"min_file_date": "1998-03-25",
+"total_size": 557.29,
+"largest_file": "shahmat.hlp",
+"text": [
+"pieces.mrc",
+"ncdraw.mrc",
+"nckibitz.mrc",
+"ncmisc.mrc",
+"ncpopup.mrc",
+"ncsocks.mrc",
+"netchess.mrc",
+"loadme.mrc",
+"shahmat.hlp"
+]
+}
 ```
 
 ## 📋 Excerpts (parsed readme / text files)

@@ -17,8 +17,8 @@
 **Script Name:** neXus  
 **Version:** 1.0  
 **Category:** Full  
-**Author(s):** Unknown  
-**Email(s):**   
+**Author(s):** _KaiSeR_  
+**Email(s):** <bomy@codetel.net.do>  
 **Website(s):**   
 **Release Year:** 1997  
 **Tags:** mass kick, notify, highlight, trigger, xdcc, popup, rejoin, interface, popups, ascii art, insult, away log, kickban, swear, alias, rpg, uno, auto-voice, dcc, slap, user levels, addon, mp3, uptime, greet, protection, fserve, timer, bot, mass op  
@@ -117,21 +117,37 @@
 ## [neXus]/readme.txt
 
 ```text
-Maker of [neXus]:
-	_KaiSeR_, with a little help from _StriKeR_
-
-Why I Made it:
-	Tired of seeing all my friends with their own scripts..... So 
-I decided to make my own.
-
-If you want help: 
-	Please don't bother me for dumb shit... if it is real impor-
-tant then you can email me at bomy@codetel.net.do
-
-A little bit about myself:
-	I am 16 years old and very enthusiastic to learn all there is 
-about computers. I live in the Tropical Paradise known as Dominican 
-Republic. Briefly thats all I can say right now. Oh and one more thing 
-if you are on the Irc come by to #dashit.
+Maker of [neXus]:
+
+	_KaiSeR_, with a little help from _StriKeR_
+
+
+
+Why I Made it:
+
+	Tired of seeing all my friends with their own scripts..... So 
+
+I decided to make my own.
+
+
+
+If you want help: 
+
+	Please don't bother me for dumb shit... if it is real impor-
+
+tant then you can email me at bomy@codetel.net.do
+
+
+
+A little bit about myself:
+
+	I am 16 years old and very enthusiastic to learn all there is 
+
+about computers. I live in the Tropical Paradise known as Dominican 
+
+Republic. Briefly thats all I can say right now. Oh and one more thing 
+
+if you are on the Irc come by to #dashit.
+
 
 ```
