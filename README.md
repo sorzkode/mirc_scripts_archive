@@ -1,5 +1,7 @@
 # ![mirc_icon_182544](https://github.com/user-attachments/assets/5e2efcd1-b885-457d-9917-fe91d421c202) mIRC Scripts Archive
 
+## Check out the frontend: [Scriptserv.com](https://scriptserv.com)
+
 Welcome to sorzkode's mIRC Scripts Archive - a comprehensive preservation project dedicated to collecting / documenting mIRC scripts.
 
 ## 🏛️ Purpose
@@ -26,19 +28,13 @@ In the 90s and early 2000s, when [IRC](https://en.wikipedia.org/wiki/Wikipedia:I
 
 - **Collection Phase**: ✅ Complete (CDX API scraping finished)
 - **Processing Phase**: ✅ Complete (files sorted)
+- **Web UI**: ✅ Published @ [Scriptserv.com](https://scriptserv.com)
 - **Documentation Phase**: 📝 Ongoing (individual script READMEs)
 
 ### Future Plans
 
-1. **Web UI**: Build a web UI to browse/sort/filter and download the scripts
-2. **Testing**: Manually test scripts in a sandbox environment
-3. **Updated documentation**: After testing, include screenshots / demos and notes
-
-### 😭 Technical Limitations
-
-- **Snapshot Dependency**: Only URLs captured by Internet Archive are available
-- **Temporal Gaps**: Some periods may have limited or no coverage
-- **Metadata Loss**: Correlating the .zip files to the corresponding information pages for the scripts can be tricky - even with web scraping
+1. **Testing**: Manually test scripts in a sandbox environment
+2. **Updated documentation**: After testing, include screenshots / demos and notes
 
 ### 🕸️ Sources
 
@@ -99,9 +95,12 @@ mirc_scripts_archive/
 4. **Submit a pull request** with details about the contribution
 5. **Provide historical context** when possible
 
-- Directly  
+- VIA Website  
 
-[Contact Me](https://sorzkode.com/contact)
+1. [Contact](https://scriptserv.com/contact.html)  
+2. [Guestbook](https://scriptserv.com/guestbook.html)  
+3. [Add Links](https://scriptserv.com/links.html)  (via +Add button)
+4. [Contribute](https://scriptserv.com/) - Select a script and click the "Contribute" button
 
 ### Contribution Guidelines
 
@@ -110,48 +109,6 @@ mirc_scripts_archive/
 - Use the established folder and documentation structure
 - Include disclaimers about testing and compatibility
 - Respect copyright and intellectual property rights
-
-## 🔐 Legal & Ethical Considerations
-
-### Copyright Respect
-
-- All original copyrights belong to their respective authors
-- This archive operates under fair use for historical preservation
-- If you are an original author with concerns, please contact me
-- Commercial use of archived scripts is not endorsed
-
-## 📊 Archive Statistics
-
-*Statistics will be updated as the archive grows*
-
-- **Total Scripts**: [To be updated]
-- **Unique Authors**: [To be updated]  
-- **Date Range**: 1996-2008 (scraping criteria accross all sites)
-- **Source Websites**: [To be updated]
-- **Categories**: [To be updated]
-
-## 🔗 Related Resources
-
-### IRC History & Documentation
-
-- [RFC 1459 - Internet Relay Chat Protocol](https://tools.ietf.org/rfc/rfc1459.txt)
-- [IRC History Timeline](https://www.irchelp.org/irchelp/misc/history.html)
-- [mIRC Official Website](https://www.mirc.com/)
-
-### Similar Preservation Projects
-
-- [Internet Archive](https://archive.org/)
-- [Software Heritage](https://www.softwareheritage.org/)
-- [Computer History Museum](https://computerhistory.org/)
-
-### People keeping the IRC dream alive
-
-- [mIRCScripts.info](https://mircscripts.info/)
-- [TECHGEAR007](https://www.tg007.net/)
-- [Coders-IRC](https://www.coders-irc.net/)
-- [IRC Driven](https://www.ircdriven.com/)
-- [mxbiteck's mIRCScripts.org Archive](https://github.com/mxbiteck/irc-addons-scripts)
-- [WikiChip mIRC Scripting Language](https://en.wikichip.org/wiki/mirc)
 
 ## 📜 License
 
