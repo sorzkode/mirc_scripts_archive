@@ -1,6 +1,4 @@
-# ![mirc_icon_182544](https://github.com/user-attachments/assets/5e2efcd1-b885-457d-9917-fe91d421c202) mIRC Scripts Archive
-
-## Check out the frontend: [Scriptserv.com](https://scriptserv.com)
+# ![mirc_icon_182544](https://github.com/user-attachments/assets/5e2efcd1-b885-457d-9917-fe91d421c202) mIRC Scripts Archive aka [Scriptserv.com](https://scriptserv.com)
 
 Welcome to sorzkode's mIRC Scripts Archive - a comprehensive preservation project dedicated to collecting / documenting mIRC scripts.
 
