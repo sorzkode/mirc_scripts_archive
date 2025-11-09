@@ -1,0 +1,53 @@
+# dlggrab%5b05-06%5d v5.82 by Igor
+
+## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers
+
+## ⚠️ Important Disclaimers
+
+- **I am not the original author** of this script and do not claim any ownership or authorship
+- **Historical Preservation Only**: This script is archived for historical and educational purposes
+- **No Support**: I cannot provide support, updates, or fixes for this script
+- **Not Thoroughly Tested**: The script has not been thoroughly tested in modern environments
+- **Use at Your Own Risk**: Any use of this script is entirely at your own risk
+- **Potentially Outdated/Incompatible**: This script was designed for much older versions of mIRC and Windows
+- **Educational Value**: This archive serves to document the evolution of IRC scripting and early internet culture
+
+## 🔍 Script Information (metadata parsed from files)
+
+**Script Name:** dlggrab%5b05-06%5d  
+**Version:** 5.82  
+**Category:** bot  
+**Authors:** Igor  
+**Email(s):** <necroman@wot.net>, <necroman@europe.com>  
+**Website(s):** [http://www.mirc.com](http://www.mirc.com), [http://SETUPDLGORD1546NEWFILEOPENORD1547NEWOBJECTOPENORD1548!!winver.hVS_FILE_INFORT_VERSIONVS_VERSION_INFO1VS_USER_DEFINED100VS_FFI_SIGNATURE0xFEEF04BDLVS_FFI_STRUCVERSION0x00010000L](http://SETUPDLGORD1546NEWFILEOPENORD1547NEWOBJECTOPENORD1548!!winver.hVS_FILE_INFORT_VERSIONVS_VERSION_INFO1VS_USER_DEFINED100VS_FFI_SIGNATURE0xFEEF04BDLVS_FFI_STRUCVERSION0x00010000L), [http://Set&up...](http://Set&up...), [http://www.w3.org/TR/REC-html40](http://www.w3.org/TR/REC-html40), [http://0x0001TCS_BOTTOM0x0002TCS_RIGHT0x0002TCS_MULTISELECT0x0004TCS_FLATBUTTONS0x0008TCS_FORCEICONLEFT0x0010TCS_FORCELABELLEFT0x0020TCS_HOTTRACK0x0040TCS_VERTICAL0x0080TCS_TABS0x0000TCS_BUTTONS0x0100TCS_SINGLELINE0x0000TCS_MULTILINE0x0200TCS_RIGHTJUSTIFY0x0000TCS_FIXEDWIDTH0x0400TCS_RAGGEDRIGHT0x0800TCS_FOCUSONBUTTONDOWN0x1000TCS_OWNERDRAWFIXED0x2000TCS_TOOLTIPS0x4000TCS_FOCUSNEVER0x8000ACS_CENTER0x0001ACS_TRANSPARENT0x0002ACS_AUTOPLAY0x0004ACS_TIMER0x0008MCS_DAYSTATE0x0001MCS_MULTISELECT0x0002MCS_WEEKNUMBERS0x0004MCS_NOTODAYCIRCLE0x0008MCS_NOTODAY0x0010DTS_UPDOWN0x0001DTS_SHOWNONE0x0002DTS_SHORTDATEFORMAT0x0000DTS_LONGDATEFORMAT0x0004DTS_TIMEFORMAT0x0009DTS_APPCANPARSE0x0010DTS_RIGHTALIGN0x0020PGS_VERT0x00000000PGS_HORZ0x00000001PGS_AUTOSCROLL0x00000002PGS_DRAGNDROP0x00000004NFS_EDIT0x0001NFS_STATIC0x0002NFS_LISTCOMBO0x0004NFS_BUTTON0x0008NFS_ALL0x0010!!dde.rhWM_DDE_FIRST0x03E0WM_DDE_INITIATE(WM_DDE_FIRST)WM_DDE_TERMINATE(WM_DDE_FIRST+1)WM_DDE_ADVISE(WM_DDE_FIRST+2)WM_DDE_UNADVISE(WM_DDE_FIRST+3)WM_DDE_ACK(WM_DDE_FIRST+4)WM_DDE_DATA(WM_DDE_FIRST+5)WM_DDE_REQUEST(WM_DDE_FIRST+6)WM_DDE_POKE(WM_DDE_FIRST+7)WM_DDE_EXECUTE(WM_DDE_FIRST+8)](http://0x0001TCS_BOTTOM0x0002TCS_RIGHT0x0002TCS_MULTISELECT0x0004TCS_FLATBUTTONS0x0008TCS_FORCEICONLEFT0x0010TCS_FORCELABELLEFT0x0020TCS_HOTTRACK0x0040TCS_VERTICAL0x0080TCS_TABS0x0000TCS_BUTTONS0x0100TCS_SINGLELINE0x0000TCS_MULTILINE0x0200TCS_RIGHTJUSTIFY0x0000TCS_FIXEDWIDTH0x0400TCS_RAGGEDRIGHT0x0800TCS_FOCUSONBUTTONDOWN0x1000TCS_OWNERDRAWFIXED0x2000TCS_TOOLTIPS0x4000TCS_FOCUSNEVER0x8000ACS_CENTER0x0001ACS_TRANSPARENT0x0002ACS_AUTOPLAY0x0004ACS_TIMER0x0008MCS_DAYSTATE0x0001MCS_MULTISELECT0x0002MCS_WEEKNUMBERS0x0004MCS_NOTODAYCIRCLE0x0008MCS_NOTODAY0x0010DTS_UPDOWN0x0001DTS_SHOWNONE0x0002DTS_SHORTDATEFORMAT0x0000DTS_LONGDATEFORMAT0x0004DTS_TIMEFORMAT0x0009DTS_APPCANPARSE0x0010DTS_RIGHTALIGN0x0020PGS_VERT0x00000000PGS_HORZ0x00000001PGS_AUTOSCROLL0x00000002PGS_DRAGNDROP0x00000004NFS_EDIT0x0001NFS_STATIC0x0002NFS_LISTCOMBO0x0004NFS_BUTTON0x0008NFS_ALL0x0010!!dde.rhWM_DDE_FIRST0x03E0WM_DDE_INITIATE(WM_DDE_FIRST)WM_DDE_TERMINATE(WM_DDE_FIRST+1)WM_DDE_ADVISE(WM_DDE_FIRST+2)WM_DDE_UNADVISE(WM_DDE_FIRST+3)WM_DDE_ACK(WM_DDE_FIRST+4)WM_DDE_DATA(WM_DDE_FIRST+5)WM_DDE_REQUEST(WM_DDE_FIRST+6)WM_DDE_POKE(WM_DDE_FIRST+7)WM_DDE_EXECUTE(WM_DDE_FIRST+8))  
+**Release Year:** 2001  
+**Tags:** gui, dialog, popup, wav, timer, dialog editor, notify, alias, bot  
+**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/mircscripts.org/dlggrab%5b05-06%5d/dlggrab%5b05-06%5d.zip)
+
+## 📂 Zip File Structure (metadata parsed from .zip)
+
+```json
+{
+  "name": "dlggrab%5b05-06%5d.zip",
+  "file_count": 33,
+  "file_types": [
+    ".aps",
+    ".cpp",
+    ".dsp",
+    ".dsw",
+    ".exe",
+    ".h",
+    ".htm",
+    ".ico",
+    ".mrc",
+    ".ncb",
+    ".opt",
+    ".rc"
+  ],
+  "max_file_date": "2001-04-27",
+  "min_file_date": "2000-10-14",
+  "total_size": 379.64,
+  "largest_file": "Dialog Grabber 5.9 Source Code/Dialog Grabber.ncb",
+  "text": []
+}
+```

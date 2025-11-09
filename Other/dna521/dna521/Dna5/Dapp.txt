@@ -1,0 +1,93 @@
+This is an application form for the Dsoftware team. If you would like to 
+apply to join the Dsoftware team, fill out this form and send it to me.
+daffy on chat.pathfinder.com 6667 #cafe  or
+_daffy on irc.dal.net 7000 #mirc_scripts
+Please do not email this form to me. Any forms emailed will be discarded.
+You app will be examined then we will contact you of the decision.
+
+Your nick as it appears on IRC:
+
+1)
+2)
+
+Your regular server:
+->
+
+Your Email address: (for reply to your app)
+mailto:
+
+List any scripts you have written:
+1)
+2)
+3)
+
+What is your specialty?:
+->
+
+Test of your abilities:
+=============================================================================
+Write a line that will kick/ban a user for 60 seconds:
+
+
+
+
+-----------------------------
+Write a line that will keep a running total of kicks in a channel:
+
+
+
+
+-----------------------------
+Write a line that will scan for ircOPs in a channel:
+
+
+
+
+
+
+=============================================================================
+NOTE: If any of these lines are copied from the Dna script, We will know.....
+	so please dont do it.
+
+A little about us:
+	We are a scripting team that specializes in user scans and war mode.
+we write all types of scripts for these purposes. If you feel you fall into
+this catagory, Let us know, We could use you on our team. Web design and
+additional languages is a plus. (not necessary). Upon arrival of your app,
+we will examine it as soon as humanly possible and get back to you with an
+answer. Enjoy the script......
+						Dsoftware Team....
+=============================================================================
+List any extra abilities that you think will help us in our decision:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==============================================================================
+daffy
+«»Dna«»Version 5.21«»Dsoftware ™ 1997

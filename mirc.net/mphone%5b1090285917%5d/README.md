@@ -1,0 +1,268 @@
+# mphone%5b1090285917%5d v1.0.0.1 by DaveTV aka YMP
+
+## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers
+
+## ⚠️ Important Disclaimers
+
+- **I am not the original author** of this script and do not claim any ownership or authorship
+- **Historical Preservation Only**: This script is archived for historical and educational purposes
+- **No Support**: I cannot provide support, updates, or fixes for this script
+- **Not Thoroughly Tested**: The script has not been thoroughly tested in modern environments
+- **Use at Your Own Risk**: Any use of this script is entirely at your own risk
+- **Potentially Outdated/Incompatible**: This script was designed for much older versions of mIRC and Windows
+- **Educational Value**: This archive serves to document the evolution of IRC scripting and early internet culture
+
+## 🔍 Script Information (metadata parsed from files)
+
+**Script Name:** mphone%5b1090285917%5d  
+**Version:** 1.0.0.1  
+**Category:** game  
+**Authors:** DaveTV aka YMP  
+**Email(s):** <dave.tv@gmail.com>, <davetv@bigpond.net.au>  
+**Website(s):**   
+**Release Year:** 2004  
+**Tags:** gui, dialog, nicklist, plugin, timer, alias, bot  
+**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/mirc.net/mphone%5b1090285917%5d/mphone%5b1090285917%5d.zip)
+
+## 📂 Zip File Structure (metadata parsed from .zip)
+
+```json
+{
+  "name": "mphone%5b1090285917%5d.zip",
+  "file_count": 3,
+  "file_types": [
+    ".dll",
+    ".mrc",
+    ".txt"
+  ],
+  "max_file_date": "2004-07-19",
+  "min_file_date": "2004-07-18",
+  "total_size": 429.58,
+  "largest_file": "MPhone.dll",
+  "text": [
+    "Readme.txt"
+  ]
+}
+```
+
+## 📋 Text Content (from Readme.txt)
+
+```text
+===============================================================================================
+
+
+
+                              ----------   MPHONE   ----------- 
+
+
+
+                              -------- Version 1.0.0.1 --------
+
+
+
+
+
+  -------------------------------------------------------------------------------------------
+
+  1 to 1 voice chat plugin for mIRC -- by DaveTV aka YMP 19/07/2004 --- davetv@bigpond.net.au
+
+  -------------------------------------------------------------------------------------------
+
+
+
+===============================================================================================
+
+
+
+
+
+
+
+Installation : 
+
+--------------
+
+
+
+Requires mIRC 6.12 or later, DirectX 9, microphone and speakers/headphones
+
+Other older versions of mIRC and DirectX may work but are untested.
+
+
+
+To install MPhone - Put the "MPhone.dll" and "MPhone.mrc" files into your main mIRC folder
+
+(the one with mIRC.exe in it). Then, in any mIRC window, type /load -rs mphone.mrc.
+
+
+
+The direct sound setup wizard may appear if it has not already been setup on the machine.
+
+MPhone requires completion of the wizard for it to work properly. The wizard only needs to 
+
+ever be run once.
+
+
+
+MPhone creates two entries in the mIRC nick menu "Voice Conversation" and "Voice Setup Wizard"
+
+
+
+Also, two commands that can be typed are created ... /MPhone <nick>    and    /MPhoneSetup
+
+
+
+
+
+
+
+Use : 
+
+-----
+
+
+
+Right click on a nick in nick list ... in the menu select "Voice Conversation".
+
+If the other party has MPhone installed, his "Accept" dialog will show allowing him to accept or
+
+deny the voice conversation request. If he does not have MPhone installed, he will just see a 
+
+notice with text indicating that a voice conversation was requested.
+
+
+
+A user can also type /MPhone <nick> to call someone. The sound setup wizard also has a menu
+
+item as above and can also be launched by typing /MPhoneSetup.
+
+
+
+The Yellow indicator on the MPhone graphic window indicates that is connecting. Connection usually takes
+
+8-12 seconds. The indicator will turn green When the voice connection is made. The indicator will turn
+
+red if disconnection occurs. MPhone will not reconnect automatically after disconnection. A new
+
+conversation must be initiated.
+
+
+
+There are no user controls as none are required. Just talk as you would using a normal phone.
+
+To end a conversation simply close MPhone. The other party's MPhone will indicate disconnection.
+
+
+
+
+
+
+
+How It Works :
+
+--------------
+
+
+
+The "host" is the person who starts initiates the call, and the "client" is the person who accepted 
+
+the incoming call. When the host starts initiates the conversation, the mIRC script portion of mPhone
+
+alerts the client using semi coded notices. 
+
+
+
+The notices contain two GUID's. The first GUID is static and is intended to signify the voice mechanism
+
+version for future program version compatibility indications. The second GUID is randomly generated by 
+
+the host via the CreateRequestString() function of the dll. The host will only listen
+
+to received semi coded notices if they contain the correct GUID. The client stores the GUID when it makes
+
+its ACCEPT string and uses it for all further strings created using the CreateInformationString() in the dll. 
+
+
+
+GetStringType() in the dll as used in the script will return ERROR if the second GUID is incorrect. This
+
+prevents a malicious person hijacking a conversation or causing any problems whatsoever. Incorrect strings
+
+are ignored by the script.
+
+
+
+The second GUID is also used as a password on the voice server that the host creates so that only the 
+
+intended person can connect to the host.
+
+
+
+Once the client has accepted the call, the hosts script launches the server within the dll and the
+
+clients script launches the client.
+
+
+
+
+
+The following things occur in order;
+
+
+
+The client starts a DirectPlayPeer
+
+The client starts a DirectPlayVoiceClient
+
+the client sets its DirectPlayPeer as a client and asynchronously starts attempting to connect to host
+
+The host starts a DirectPlayPeer
+
+The host starts a DirectPlayVoiceServer
+
+The host starts a DirectPlayVoiceClient
+
+the host sets its DirectPlayPeer as a host and starts listening for the client
+
+The host starts the DirectPlayVoiceServer on the waiting transport session
+
+
+
+After the client to host peer connection is established --
+
+The client connects its DirectPlayVoiceClient to the hosts DirectPlayVoiceServer
+
+
+
+After the host detects the client connected to voice session --
+
+The host connects its own DirectPlayVoiceClient to its DirectPlayVoiceServer
+
+
+
+Voice contact is now established until either peer breakes the peer transport or peer-voice session.
+
+Then mPhone indicates disconnection and resets the DirectPlay objects for next use.
+
+
+
+
+
+
+
+Networking : 
+
+------------
+
+
+
+The MPhone host (who first initiated the conversation) hosts on port 4121 (UDP initially then TCP).
+
+
+
+If the host is behind a router then this port will need to be forwarded.
+
+
+
+The host port can be
+```
