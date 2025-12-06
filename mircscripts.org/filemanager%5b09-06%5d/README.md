@@ -1,4 +1,4 @@
-# filemanager%5b09-06%5d v1.0 by Buddyke
+# FileManager DLL v1.0 by Buddyke
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers
 
@@ -14,14 +14,14 @@
 
 ## 🔍 Script Information (metadata parsed from files)
 
-**Script Name:** filemanager%5b09-06%5d  
+**Script Name:** FileManager DLL  
 **Version:** 1.0  
-**Category:** Unknown  
+**Category:** Addon  
 **Authors:** Buddyke  
 **Email(s):** <scorpi_16@hotmail.com>  
 **Website(s):**   
 **Release Year:** 2003  
-**Tags:**   
+**Tags:** dll, file management, utility, mirc, filesystem, file attributes  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/mircscripts.org/filemanager%5b09-06%5d/filemanager%5b09-06%5d.zip)
 
 ## 📂 Zip File Structure (metadata parsed from .zip)

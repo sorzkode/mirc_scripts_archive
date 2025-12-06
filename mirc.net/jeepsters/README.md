@@ -1,4 +1,4 @@
-# jeepsters v1.0 by Unknown
+# Jeepster's IRC Numeric Reference v1.0 by Jeepster
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers
 
@@ -14,14 +14,14 @@
 
 ## 🔍 Script Information (metadata parsed from files)
 
-**Script Name:** jeepsters  
-**Version:** 1.0  
-**Category:** Unknown  
-**Authors:** Unknown  
+**Script Name:** Jeepster's IRC Numeric Reference  
+**Version:** 3.0a  
+**Category:** Addon  
+**Authors:** Jeepster  
 **Email(s):**   
 **Website(s):** [http://www.teleport.com/~jeepster/setbrows.html](http://www.teleport.com/~jeepster/setbrows.html)  
 **Release Year:** 1998  
-**Tags:**   
+**Tags:** reference , addon , irc help , numeric codes  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/mirc.net/jeepsters/jeepsters.zip)
 
 ## 📂 Zip File Structure (metadata parsed from .zip)

@@ -1,4 +1,4 @@
-# gtb%5b08-03%5d v1.0 by void
+# Get Title Bar v1.0 by void
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers
 
@@ -14,14 +14,14 @@
 
 ## 🔍 Script Information (metadata parsed from files)
 
-**Script Name:** gtb%5b08-03%5d  
+**Script Name:** Get Title Bar  
 **Version:** 1.0  
-**Category:** Unknown  
+**Category:** Addon  
 **Authors:** void  
 **Email(s):**   
 **Website(s):**   
 **Release Year:** 2004  
-**Tags:**   
+**Tags:** dll, utility, status, titlebar, window  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/mircscripts.org/gtb%5b08-03%5d/gtb%5b08-03%5d.zip)
 
 ## 📂 Zip File Structure (metadata parsed from .zip)

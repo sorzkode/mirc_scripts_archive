@@ -15,7 +15,7 @@
 ## 🔍 Script Information (metadata parsed from files)
 
 **Script Name:** particle  
-**Version:**   
+**Version:** 1.0  
 **Category:** Executable  
 **Authors:** Unknown  
 **Email(s):**   

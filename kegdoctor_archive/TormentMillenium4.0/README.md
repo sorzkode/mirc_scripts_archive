@@ -15,11 +15,11 @@
 ## 🔍 Script Information (metadata parsed from files)
 
 **Script Name:** TormentMillenium4.0  
-**Version:**   
+**Version:** Skinart  
 **Category:** Executable  
 **Authors:** Unknown  
-**Email(s):**   
-**Website(s):**   
+**Email(s):** outlawart@hotmail.com  
+**Website(s):** [http://skinart.cjb.net](http://skinart.cjb.net)  
 **Release Year:** 2000  
 **Tags:**   
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/kegdoctor_archive/TormentMillenium4.0/TormentMillenium4.0.zip)

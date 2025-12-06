@@ -1,4 +1,4 @@
-# li%5b02-21%5d v1.0 by Unknown
+# li.DLL v1.0 by Unknown
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers
 
@@ -14,14 +14,14 @@
 
 ## 🔍 Script Information (metadata parsed from files)
 
-**Script Name:** li%5b02-21%5d  
+**Script Name:** li.DLL  
 **Version:** 1.0  
-**Category:** Unknown  
-**Authors:** Unknown  
+**Category:** Addon  
+**Authors:** li  
 **Email(s):**   
 **Website(s):**   
 **Release Year:** 2005  
-**Tags:**   
+**Tags:** dll, mirc, utility, transparency, window management, title  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/mircscripts.org/li%5b02-21%5d/li%5b02-21%5d.zip)
 
 ## 📂 Zip File Structure (metadata parsed from .zip)

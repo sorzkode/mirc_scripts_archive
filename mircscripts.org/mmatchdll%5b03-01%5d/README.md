@@ -1,4 +1,4 @@
-# mmatchdll%5b03-01%5d v2.1 by Soul_Eater
+# MusicMatch DLL v2.1 by Soul_Eater
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers
 
@@ -14,14 +14,14 @@
 
 ## 🔍 Script Information (metadata parsed from files)
 
-**Script Name:** mmatchdll%5b03-01%5d  
+**Script Name:** MusicMatch DLL  
 **Version:** 2.1  
-**Category:** channel  
+**Category:** Addon  
 **Authors:** Soul_Eater  
 **Email(s):**   
 **Website(s):**   
 **Release Year:** 2004  
-**Tags:**   
+**Tags:** dll, mirc, media control, MusicMatch Jukebox, utility, jukebox
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/mircscripts.org/mmatchdll%5b03-01%5d/mmatchdll%5b03-01%5d.zip)
 
 ## 📂 Zip File Structure (metadata parsed from .zip)

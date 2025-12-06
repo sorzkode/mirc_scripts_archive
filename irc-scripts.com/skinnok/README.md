@@ -14,14 +14,14 @@
 
 ## 🔍 Script Information (metadata parsed from files)
 
-**Script Name:** skinnok  
+**Script Name:** NokSkin  
 **Version:** 1.0  
-**Category:** channel  
-**Authors:** Me so The  
+**Category:** Addon  
+**Authors:** NokouT  
 **Email(s):**   
 **Website(s):**   
 **Release Year:** 2000  
-**Tags:**   
+**Tags:** skins, art, pictures  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/irc-scripts.com/skinnok/skinnok.zip)
 
 ## 📂 Zip File Structure (metadata parsed from .zip)

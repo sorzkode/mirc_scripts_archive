@@ -17,11 +17,11 @@
 **Script Name:** weaponshop  
 **Version:** 1.0  
 **Category:** utility  
-**Authors:** Unknown  
+**Authors:** Bahamut-Zero  
 **Email(s):** <BahamutZero@FFShrine.com>  
-**Website(s):** [http://'Remote...'](http://'Remote...')  
+**Website(s):**   
 **Release Year:** 2001  
-**Tags:**   
+**Tags:** wordslist , weapons , game , entertainment  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/irc-scripts.com/weaponshop/weaponshop.zip)
 
 ## 📂 Zip File Structure (metadata parsed from .zip)

@@ -15,13 +15,13 @@
 ## 🔍 Script Information (metadata parsed from files)
 
 **Script Name:** ss40p  
-**Version:**   
+**Version:** 1.0  
 **Category:** Executable  
 **Authors:** Unknown  
 **Email(s):**   
 **Website(s):**   
 **Release Year:** 2001  
-**Tags:**   
+**Tags:** exe, executable  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/irc-scripts.com/ss40p/ss40p.zip)
 
 ## 📂 Zip File Structure (metadata parsed from .zip)

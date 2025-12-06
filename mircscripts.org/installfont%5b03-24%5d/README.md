@@ -1,4 +1,4 @@
-# installfont%5b03-24%5d v1.0 by Soul_Eater
+# InstallFont DLL v1.0 by Soul_Eater
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers
 
@@ -14,14 +14,14 @@
 
 ## 🔍 Script Information (metadata parsed from files)
 
-**Script Name:** installfont%5b03-24%5d  
+**Script Name:** InstallFont DLL  
 **Version:** 1.0  
-**Category:** Unknown  
+**Category:** Addon  
 **Authors:** Soul_Eater  
 **Email(s):** <souleata@xrs.net>  
 **Website(s):**   
 **Release Year:** 2004  
-**Tags:**   
+**Tags:** dll, font, utility, mirc, install, uninstall  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/mircscripts.org/installfont%5b03-24%5d/installfont%5b03-24%5d.zip)
 
 ## 📂 Zip File Structure (metadata parsed from .zip)

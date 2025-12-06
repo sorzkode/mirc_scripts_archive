@@ -47,42 +47,76 @@
 
 ## 📋 Excerpts (parsed readme / text files)
 
-## rEad.txt
+## ccprot_readme.txt
 
 ```text
-                $a.    ` .              ` � ,        ` �,
-      .a$P"$$a. $$$       $,                 $$,         $a,
-. , :a$$$   $$$ $$$       $a.    $,   .a$$'� '$$a.  .a$$`'$$a.
-            $$$ $$$       $$$    $a.  `$$$$,        $$$,   `$�
-      .a$P"%$$$ $$$P"$$a. $$$    $$$   `$$$$a.      `$$a.   `
-      $$$   $$$ $$$  `$$$ $$$    $$$.    `Q$$$a. `    `$$$a.`
-    .a$$$   $$$.$$$   $$$ $$$    $$$ $a.    `$$$a.`$a.   `$$$,
-        `'�Q$$$ `$$a,.$$$ $$$$a.,$$$ `$$a.    `$$$ `$$a. .a$$�
-            `$$       `$$ `$$    $$$  `$$$a. .a$$�   $P�  
-             `$        `$  `$    $$$    $$P�          `
-              `       $,`   `    $$$    `$             `,
-              `,      $$a.  `.   $$$     `
-                      $$$%#aa..aS$$�      `,
-                      `$$�
-                        `
-                         `.
-                       .z[aByss]z. v1.0 by m00n
-                      .z[DaRK DeeP aND ViCiouS]z.
-
- *used* to be a script, but what the heck, i decided to make it an
- addon so it could be used with other scripts, since i really don't
- use my own script much anymore.
-
- to use, copy this file into your mirc
- directory, then type /load -rs aByss.mrc
-
- contains:
- ctcp protection
- dcc protection
- xdcc stuph
-
- have fun,
- m00n
- knight@bc.sympatico.ca
+                $a.    ` .              ` � ,        ` �,
+
+      .a$P"$$a. $$$       $,                 $$,         $a,
+
+. , :a$$$   $$$ $$$       $a.    $,   .a$$'� '$$a.  .a$$`'$$a.
+
+            $$$ $$$       $$$    $a.  `$$$$,        $$$,   `$�
+
+      .a$P"%$$$ $$$P"$$a. $$$    $$$   `$$$$a.      `$$a.   `
+
+      $$$   $$$ $$$  `$$$ $$$    $$$.    `Q$$$a. `    `$$$a.`
+
+    .a$$$   $$$.$$$   $$$ $$$    $$$ $a.    `$$$a.`$a.   `$$$,
+
+        `'�Q$$$ `$$a,.$$$ $$$$a.,$$$ `$$a.    `$$$ `$$a. .a$$�
+
+            `$$       `$$ `$$    $$$  `$$$a. .a$$�   $P�  
+
+             `$        `$  `$    $$$    $$P�          `
+
+              `       $,`   `    $$$    `$             `,
+
+              `,      $$a.  `.   $$$     `
+
+                      $$$%#aa..aS$$�      `,
+
+                      `$$�
+
+                        `
+
+                         `.
+
+                       .z[aByss]z. v1.0 by m00n
+
+                      .z[DaRK DeeP aND ViCiouS]z.
+
+
+
+ *used* to be a script, but what the heck, i decided to make it an
+
+ addon so it could be used with other scripts, since i really don't
+
+ use my own script much anymore.
+
+
+
+ to use, copy this file into your mirc
+
+ directory, then type /load -rs aByss.mrc
+
+
+
+ contains:
+
+ ctcp protection
+
+ dcc protection
+
+ xdcc stuph
+
+
+
+ have fun,
+
+ m00n
+
+ knight@bc.sympatico.ca
+
  http://www.m3rk.home.ml.org
 ```
