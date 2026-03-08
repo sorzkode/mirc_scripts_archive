@@ -1,4 +1,4 @@
-# nnscript403_1991 v165 by Greg Fleming
+# NoNameScript v4.03 by ESNATION
 
 ## ⁉️ This is part of an mIRC script archiving project. Please read the [README](https://github.com/sorzkode/mirc_scripts_archive/blob/main/README.md) file located in the [main project repository](https://github.com/sorzkode/mirc_scripts_archive) for more information / disclaimers
 
@@ -14,14 +14,14 @@
 
 ## 🔍 Script Information (metadata parsed from files)
 
-**Script Name:** nnscript403_1991  
-**Version:** 165  
-**Category:** game  
-**Authors:** Greg Fleming  
+**Script Name:** NoNameScript  
+**Version:** 4.03  
+**Category:** Full  
+**Authors:** ESNATION  
 **Email(s):**   
-**Website(s):** [http://rss.slashdot.org/Slashdot/slashdot](http://rss.slashdot.org/Slashdot/slashdot), [http://cservice.undernet.org/live/](http://cservice.undernet.org/live/), [http://www.fool.com/xml/foolnews_rss091.xml](http://www.fool.com/xml/foolnews_rss091.xml)  
+**Website(s):** [http://nnscript.esnation.com/](http://nnscript.esnation.com/), [http://nnscript.dk/](http://nnscript.dk/), [http://nnscript.com/](http://nnscript.com/)  
 **Release Year:** 2006  
-**Tags:** wav, trigger, log viewer, raw events, protection, notify, rejoin, away system, toolbar, nicklist, auto-join, auto-op, bad word, slap, timer, alias, color scheme, dcc, away log, last seen, auto-away, access list, channel protection, sockets, 8ball, uptime, bot, auto voice, interface, uno  
+**Tags:** Channel Central, Away System, Winamp Control, Hell Theme, GameScript, Lag Graph, News Ticker, Notify List, Auto-Op, Clone Detector, Ban Management, CTCP Protection, Mass Highlight, Query Block, Script-Update, Theme Support, Mute Theme, Popups, mSL code, DCC Monitor, eSports, QuakeNet, Gamesnet, Clan Management  
 **Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/kegdoctor_archive/nnscript403_1991/nnscript403_1991.zip)
 
 ## 📂 Zip File Structure (metadata parsed from .zip)
