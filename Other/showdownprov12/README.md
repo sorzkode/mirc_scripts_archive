@@ -22,7 +22,7 @@
 **Website(s):** [http://www.sci.fi/~showdown/](http://www.sci.fi/~showdown/)  
 **Release Year:** 2001  
 **Tags:** themes, languages, script modes, tab-controlled setups, irc network ready, stats keeping, war modes, ratio fileserver, script skins, seen system, editable kicks, editable quits, multi-network autojoin, colour usage control, port virus scanner, ctcp silence, channel nicklist colourer, helpfiles, register, popup themes, menu themes, menubar languages, themed nick completion, network service controls, program quickstart, midi jukebox, user list system, friends, enemies, team features, cool talkers, kicks, ad-free mass messaging, scan statistics, list statistics, channel port scanner, direct message finder, fake actions, tricks, bots, war clones, war hacks, tools, advanced away system, global commands, intelligent whois report, editable spell checker, cool games, mp3 features, advanced error-checking    
-**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/other/showdownprov12.zip)
+**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/other/showdownprov12/sdv12pro.zip)
 
 ## 📂 Zip File Structure (metadata parsed from .zip)
 
