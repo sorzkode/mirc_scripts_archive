@@ -22,7 +22,7 @@
 **Website(s):** [http://nnscript.esnation.com/](http://nnscript.esnation.com/), [http://nnscript.dk/](http://nnscript.dk/), [http://nnscript.com/](http://nnscript.com/)   
 **Release Year:** 2006  
 **Tags:** Channel Central, Away System, Winamp Control, Hell Theme, GameScript, Lag Graph, News Ticker, Notify List, Auto-Op, Clone Detector, Ban Management, CTCP Protection, Mass Highlight, Query Block, Script-Update, Theme Support, Mute Theme, Popups, mSL code, DCC Monitor, eSports, QuakeNet, Gamesnet, Clan Management  
-**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/main/other/nonamescript/nonamescript.zip)
+**Download Link:** [Download](https://github.com/sorzkode/mirc_scripts_archive/raw/refs/heads/main/Other/nonamescript/nnscript422.zip)
 
 ## 📂 Zip File Structure (metadata parsed from .zip)
 
