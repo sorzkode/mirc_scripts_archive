@@ -2,12 +2,21 @@
 
 Welcome to sorzkode's mIRC Scripts Archive - a comprehensive preservation project dedicated to collecting / documenting mIRC scripts.
 
-## Stats
-- Original scrape: ~3,000 files  
-- Corrupted (removed): 1,800+  
-- Scrape window: 1996–2008  
-- Sources documented: Hawkee.com (complete), others ongoing  
-> Recognize a script or know its original author? Open a [pull request](https://github.com/sorzkode/mirc_scripts_archive/pulls).  
+## ⚠️ UPDATES
+Since first publishing this project, I have nearly doubled the number of scripts and just recently re-worked my cataloging process. Thanks to the new process, I am now *finished? I need to make some big updates to the website and didn't want to push all the newly cataloged files to the main repo as it would break the site (I'm using a different metadata structure now). So, in the meantime, you can see all the latest work under the [releases](https://github.com/sorzkode/mirc_scripts_archive/releases) section. I have packaged each "source" as a release for download. 
+- [adrian](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/adrian)  
+- [coders](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/coders)  
+- [hawkee](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/hawkee)  
+- [irc-scripts](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/irc-scripts)  
+- [kegdoctor](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/kegdoctor)  
+- [mirc.net](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/mirc.net)  
+- [mircscripts.info](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/mircscripts.info)  
+- [mircscripts.org](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/mircscripts.org)  
+- [other](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/other)  
+- [pairc.com](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/pairc.com)  
+- [sourceforge.net](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/sourceforge.net)  
+- [tg007.net](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/tg007.net)  
+- [xcalibre.com](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/xcalibre.com)  
 
 ## Purpose
 
@@ -24,12 +33,6 @@ In the 90s and early 2000s, when [IRC](https://en.wikipedia.org/wiki/Wikipedia:I
 ## Methodology
 
 I used Python to leverage the Internet Archive's CDX (Canonical URL and Timestamp) API to download any available .zip files from the given mIRC scripting sites. After scraping, I used additional scripts to delete corrupted folders and to extract .zip and script information into JSON files. Those JSON files are manually verified and then used to auto-generate README files for each script. Hawkee files are fully processed; the rest are in progress.
-
-### TODO
-
-There's many files that need readme and metadata updates. I have started working on a more streamlined pipeline that will hopefully help with this process. Additionally, I've added hundreds of new scripts (locally) to the project and will push all those when the updates are finished (no idea when).
-
-In the meantime, see [Contributing](#Contributing) to help out.  
 
 ## Disclaimers
 The files contained here may set off your virus detection. Most of these will be false-positives but some may be actual viruses. Also, don't expect many of the scripts to run in modern environments. I would recommend running them in a virtual environment for Windows XP.  
