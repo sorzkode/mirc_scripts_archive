@@ -1,26 +1,14 @@
-# ![mirc_icon_182544](https://github.com/user-attachments/assets/5e2efcd1-b885-457d-9917-fe91d421c202) mIRC Scripts Archive aka [Scriptserv.com](https://scriptserv.com)
+# ![mirc_icon_182544](https://github.com/user-attachments/assets/5e2efcd1-b885-457d-9917-fe91d421c202) mIRC Scripts Archive aka [ScriptServ.com](https://scriptserv.com)
 
 Welcome to sorzkode's mIRC Scripts Archive - a comprehensive preservation project dedicated to collecting / documenting mIRC scripts.
 
 ## ⚠️ UPDATES
-Since first publishing this project, I have nearly doubled the number of scripts and just recently re-worked my cataloging process. Thanks to the new process, I am now *finished? I need to make some big updates to the website and didn't want to push all the newly cataloged files to the main repo as it would break the site (I'm using a different metadata structure now). So, in the meantime, you can see all the latest work under the [releases](https://github.com/sorzkode/mirc_scripts_archive/releases) section. I have packaged each "source" as a release for download. 
-- [adrian](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/adrian)  
-- [coders](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/coders)  
-- [hawkee](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/hawkee)  
-- [irc-scripts](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/irc-scripts)  
-- [kegdoctor](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/kegdoctor)  
-- [mirc.net](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/mirc.net)  
-- [mircscripts.info](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/mircscripts.info)  
-- [mircscripts.org](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/mircscripts.org)  
-- [other](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/other)  
-- [pairc.com](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/pairc.com)  
-- [sourceforge.net](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/sourceforge.net)  
-- [tg007.net](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/tg007.net)  
-- [xcalibre.com](https://github.com/sorzkode/mirc_scripts_archive/releases/tag/xcalibre.com)  
+I have completely revamped the website and this repo. For more information on the site, check out [this blog post](https://scriptserv.com/blog-post.php?slug=new-site-who-dis) and the [About Page](https://scriptserv.com/about.php). Since the site will now host and serve the files VS GitHub hosting and the site serving, the repo will be more barebones. Now the repo will have all scripts stored through [releases](https://github.com/sorzkode/mirc_scripts_archive/releases) - the release tag will = the source and the associated readme will list all scripts in the release with links back to the website. 
 
 ## Purpose
 
-To preserve mIRC scripting history and culture.
+To preserve mIRC scripting history and culture. At the moment, I believe it is the most complete archive of its kind. There is one archive that is larger that you can check out here: [Jawsh's IRC Script
+Archive](https://scripts.6697.pro/). The two archives may be combined in the future.
 
 ## But Why?
 
@@ -32,29 +20,33 @@ In the 90s and early 2000s, when [IRC](https://en.wikipedia.org/wiki/Wikipedia:I
 
 ## Methodology
 
-I used Python to leverage the Internet Archive's CDX (Canonical URL and Timestamp) API to download any available .zip files from the given mIRC scripting sites. After scraping, I used additional scripts to delete corrupted folders and to extract .zip and script information into JSON files. Those JSON files are manually verified and then used to auto-generate README files for each script. Hawkee files are fully processed; the rest are in progress.
+This project started with a Python web scraping script and archive.org's CDX API. I scraped for all `.zip` files from many now defunct scripting sites from the years of 1996 - 2008. This represents the majority of the scripts/addons you'll find here, but I have been adding to the collection from other sources.
+
+I have tried cataloging the scripts using Python scripts, good old fashioned elbow grease, and ultimately resorted to the dark side and used local LLM API calls to create metadata files for each script. Even with all those efforts, the cataloging isn't perfect and I don't imagine it will ever be unless the community chips in.
 
 ## Disclaimers
-The files contained here may set off your virus detection. Most of these will be false-positives but some may be actual viruses. Also, don't expect many of the scripts to run in modern environments. I would recommend running them in a virtual environment for Windows XP.  
+I didn't create any of these scripts. I'm not responsible for updating, maintaining, or providing support for them. I'm also not responsible for any damages caused by your use of them. When cataloging, roughly 100 of these files set off my virus detector which I just ignored as I wasn't executing any of the files. My assumption is that this is mostly false positives or that some of the files (i.e. nukers) are considered malicious. However, that doesn't mean there aren't actual viruses present. How dangerous is a 20 year old virus today? I don't know. I also assume that many of these scripts won't work in modern environments or versions of mIRC. I recommend using them on virtual machines (i.e. something like Windows XP + VirtualBox).
 
 ## Contributing
 
-**Via GitHub**
+- **Script Issues/Comments/Ratings:** Use the "Report an Issue" button,
+  comment box, or rating widget on any script's page on
+  [scriptserv.com](https://scriptserv.com).
+- **Link Issues/Suggestions:** Use the "Report a Broken Link" or "Add a
+  Link" button on the [links page](https://scriptserv.com/links.php).
+- **Contact Form:** Use the [contact
+  form](https://scriptserv.com/contact.php) for general feedback.
+- **Guestbook:** Sign the [guestbook](https://scriptserv.com/guestbook.php)
+  to show some love.
+- **GitHub Issues:** Open an
+  [issue](https://github.com/sorzkode/mirc_scripts_archive/issues) for
+  technical issues or feature requests.
+- **GitHub Discussions:** Participate in
+  [discussions](https://github.com/sorzkode/mirc_scripts_archive/discussions)
+  for more of a message board feel.
 
-1. **Fork this repository**
-2. **Add your materials** following the established structure
-3. **Create proper documentation** using the README templates
-4. **Submit a pull request** with details about the contribution
-5. **Provide historical context** when possible
-
-**VIA Website**  
-
-1. [Contact](https://scriptserv.com/contact.html)  
-2. [Guestbook](https://scriptserv.com/guestbook.html)  
-3. [Add Links](https://scriptserv.com/links.html)  (via +Add button)
-4. [Contribute](https://scriptserv.com/) - Select a script and click the "Contribute" button
-
-Looking for: historic .mrc / .als / .ini files, original docs and help files, screenshots, author info, website backups, logs, stories, and links.
+> All reports and feedback are truly appreciated. Due to dirty spammers, all
+submissions are manually reviewed.
 
 ---
 ## Other Archival Projects
